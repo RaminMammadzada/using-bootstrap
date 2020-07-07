@@ -1,5 +1,30 @@
 * {
-    margin: 0 auto;
-    padding: 0 auto;
+    /*margin: 0 auto;*/
+    /*padding: 0 auto;*/
     box-sizing: border-box;
 }
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;;
+}
+
+
+.red-background {
+    background-color: #f72210;
+}
+
+.weather {
+    height: 24px;
+    width: 24px;
+}
+
+.large-logo {
+    width: 400px;
+    height: auto;
+}
+
+.small-logo {
+    width: 140px;
+    height: auto;
+}
+
