@@ -5,95 +5,163 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
-      crossorigin="anonymous"
+      href="assets/bootstrap-4.5.0-dist/css/bootstrap.min.css"
     />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap"
       rel="stylesheet"
     />
-      <link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="assets/font-awesome-4.7.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="assets/css/custom.css" />
     <title>Newsweek</title>
   </head>
 
   <body>
     <header class="container-fluid mxw">
-        <div class="mx-0 sticky-top bg-light">
-            <!-- banner in header -->
-            <div class="d-flex justify-content-between red-background p-2">
-                <div class="d-none d-lg-flex flex-column justify-content-center pl-3">
-                    <a href="#" class="d-flex flex-row text-decoration-none">
-                        <img class="weather"  src="assets/img/cloud_icon.png" alt="cloud">
-                        <span class="text-white ml-2">28 Bakirkoy, TR ></span>
-                    </a>
-                    <span class="text-white font-weight-light mt-2">Tue, Jul 7, 2020</span>
-                </div>
-                <div class="d-none d-lg-block">
-                    <a class="website-logo" href="#">
-                        <img class="large-logo" src="assets/img/logo_header.png" alt="logo">
-                    </a>
-                </div>
-                <div class="d-lg-none">
-                    <a class="website-logo" href="#">
-                        <img class="small-logo" src="assets/img/logo_header.png" alt="logo">
-                    </a>
-                </div>
-                <div class="d-flex align-items-center">
-                    <i class="fa fa-user d-md-none text-white" aria-hidden="true"></i>
-                    <a class="d-none d-md-block align-center text-white" href="#">LOGIN</a>
-                    <button type="button"
-                            class="btn font-weight-bold rounded-pill bg-warning">SUBSCRIBE>
-                    </button>
-                    <i class="fa fa-bars d-lg-none d-xl-none text-white" aria-hidden="true"></i>
-                </div>
-            </div>
-            <!-- first navbar in header -->
-            <nav class="d-none d-lg-block navbar d-lg-flex border-bottom position-relative p-0 m-0 justify-content-left">
-                <ul class="flex-nowrap nav font-weight-bold">
-                    <li class="nav-item border-right">
-                        <a class="nav-link " href="#">U.S</a>
-                    </li>
-                    <li class="nav-item border-right">
-                        <a class="nav-link " href="#">World</a>
-                    </li>
-                    <li class="nav-item border-right">
-                        <a class="nav-link " href="#">Business</a>
-                    </li>
-                    <li class="nav-item border-right">
-                        <a class="nav-link flex-nowrap " href="#">Tech & Science</a>
-                    </li>
-                    <li class="nav-item border-right">
-                        <a class="nav-link " href="#">Culture</a>
-                    </li>
-                    <li class="nav-item border-right">
-                        <a class="nav-link " href="#">Newsgeek</a>
-                    </li>
-                    <li class="nav-item border-right">
-                        <a class="nav-link " href="#">Sport</a>
-                    </li>
-                    <li class="nav-item border-right">
-                        <a class="nav-link " href="#">Health</a>
-                    </li>
-                    <li class="nav-item border-right">
-                        <a class="nav-link flex-nowrap" href="#">The Debate</a>
-                    </li>
-                    <li class="nav-item border-right">
-                        <a class="nav-link " href="#">Vantage</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href="#">Weather</a>
-                    </li>
-                </ul>
-                <div class="form-group form-inline my-2">
-                    <input type="text" class="form-control w-30 mr-2" placeholder="Search">
-                    <i class="fa fa-search" aria-hidden="true"></i>
-                </div>
-            </nav>
+      <div class="mx-0 sticky-top bg-light">
+        <!-- banner in header -->
+        <div class="d-flex justify-content-between red-background p-2">
+          <div class="d-none d-lg-flex flex-column justify-content-center pl-3">
+            <a href="#" class="d-flex flex-row text-decoration-none">
+              <img
+                class="weather"
+                src="assets/img/cloud_icon.png"
+                alt="cloud"
+              />
+              <span class="text-white ml-2">28 Bakirkoy, TR ></span>
+            </a>
+            <span class="text-white font-weight-light mt-2"
+              >Tue, Jul 7, 2020</span
+            >
+          </div>
+          <div class="d-none d-lg-block">
+            <a class="website-logo" href="#">
+              <img
+                class="large-logo"
+                src="assets/img/logo_header.png"
+                alt="logo"
+              />
+            </a>
+          </div>
+          <div class="d-lg-none">
+            <a class="website-logo" href="#">
+              <img
+                class="small-logo"
+                src="assets/img/logo_header.png"
+                alt="logo"
+              />
+            </a>
+          </div>
+          <div class="d-flex align-items-center">
+            <i class="fa fa-user d-md-none text-white" aria-hidden="true"></i>
+            <a class="d-none d-md-block align-center text-white" href="#"
+              >LOGIN</a
+            >
+            <button
+              type="button"
+              class="btn font-weight-bold rounded-pill bg-warning"
+            >
+              SUBSCRIBE >
+            </button>
+            <i
+              class="fa fa-bars d-lg-none d-xl-none text-white"
+              aria-hidden="true"
+            ></i>
+          </div>
         </div>
+        <!-- first navbar in header -->
+        <nav
+          class="bg-white border-0 d-none d-lg-block navbar d-lg-flex border-bottom position-relative p-0 m-0 justify-content-left"
+        >
+          <ul class="flex-nowrap nav font-weight-bold">
+            <li class="nav-item border-right">
+              <a class="nav-link text-dark" href="#">U.S</a>
+            </li>
+            <li class="nav-item border-right">
+              <a class="nav-link text-dark" href="#">World</a>
+            </li>
+            <li class="nav-item border-right">
+              <a class="nav-link text-dark" href="#">Business</a>
+            </li>
+            <li class="nav-item border-right">
+              <a class="nav-link text-dark flex-nowrap" href="#"
+                >Tech & Science</a
+              >
+            </li>
+            <li class="nav-item border-right">
+              <a class="nav-link text-dark" href="#">Culture</a>
+            </li>
+            <li class="nav-item border-right">
+              <a class="nav-link text-dark" href="#">Newsgeek</a>
+            </li>
+            <li class="nav-item border-right">
+              <a class="nav-link text-dark" href="#">Sport</a>
+            </li>
+            <li class="nav-item border-right">
+              <a class="nav-link text-dark" href="#">Health</a>
+            </li>
+            <li class="nav-item border-right">
+              <a class="nav-link text-dark flex-nowrap" href="#">The Debate</a>
+            </li>
+            <li class="nav-item border-right">
+              <a class="nav-link text-dark" href="#">Vantage</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">Weather</a>
+            </li>
+          </ul>
+          <div class="form-group form-inline my-2">
+            <input
+              type="text"
+              class="form-control w-30 mr-2"
+              placeholder="Search"
+            />
+            <i class="fa fa-search" aria-hidden="true"></i>
+          </div>
+        </nav>
+        <!-- trending topics navbar in header -->
+        <nav
+          class="bg-white border-0 d-none d-lg-block navbar d-lg-flex border-bottom position-relative p-0 m-0 justify-content-left"
+        >
+          <ul class="flex-nowrap nav font-weight-bold">
+            <li class="nav-item border-right">
+              <a class="nav-link text-dark" href="#">TRENDING</a>
+            </li>
+            <li class="nav-item border-right">
+              <a class="nav-link text-black-50" href="#">DONALD TRUMP</a>
+            </li>
+            <li class="nav-item border-right">
+              <a class="nav-link text-black-50" href="#">JOE BIDEN</a>
+            </li>
+            <li class="nav-item border-right">
+              <a class="nav-link text-black-50 flex-nowrap" href="#">CHINA</a>
+            </li>
+            <li class="nav-item border-right">
+              <a class="nav-link text-black-50" href="#">CORONAVIRUS</a>
+            </li>
+            <li class="nav-item border-right">
+              <a class="nav-link text-black-50" href="#">2020 ELECTION</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main></main>
     <footer></footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script src="assets/bootstrap-4.5.0-dist/js/bootstrap.min.js"></script>
   </body>
 </html>
