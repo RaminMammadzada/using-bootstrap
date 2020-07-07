@@ -28,3 +28,8 @@ body {
     height: auto;
 }
 
+
+.nav li a{
+    padding: 0;
+    margin: 0 7px;
+}
