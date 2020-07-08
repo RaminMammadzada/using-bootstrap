@@ -27,3 +27,13 @@ body {
     width: 140px;
     height: auto;
 }
+
+.scrollable {
+    margin-top:30px;
+    overflow-y:scroll;
+    height:100%;
+}
+
+.featured-story {
+    width: 18rem;
+}
