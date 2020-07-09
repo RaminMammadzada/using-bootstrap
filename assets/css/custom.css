@@ -66,3 +66,33 @@ body {
 .vs::after {
     top: 12px;
 }
+
+/*.top-story {*/
+/*    order: 1;*/
+/*    -webkit-order: 1;*/
+/*}*/
+
+/*.featured-stories {*/
+/*    order: 2;*/
+/*    -webkit-order: 2;*/
+/*}*/
+
+/*.my-turn {*/
+/*    order: 5;*/
+/*    -webkit-order: 5;*/
+/*}*/
+
+/*.culture-and-travel {*/
+/*    order: 6;*/
+/*    -webkit-order: 6;*/
+/*}*/
+
+/*.more-stories {*/
+/*    order: 4;*/
+/*    -webkit-order: 4;*/
+/*}*/
+
+/*.debade-and-opinion {*/
+/*    order: 3;*/
+/*    -webkit-order: 3;*/
+/*}*/
