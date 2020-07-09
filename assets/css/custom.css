@@ -13,6 +13,14 @@ body {
     background-color: #f72210;
 }
 
+.text-red {
+    color: #f72210;
+}
+
+.purple-background {
+    background-color: #F4F5F6;
+}
+
 .weather {
     height: 24px;
     width: 24px;
@@ -34,6 +42,23 @@ body {
     height:100%;
 }
 
-.featured-story {
-    width: 18rem;
+.debate-img {
+
+}
+
+.vs::before,
+.vs::after {
+    content: "";
+    display: block;
+    background-color: #d9d9d9;
+    height: 1px;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.vs::after {
+    top: 12px;
 }
