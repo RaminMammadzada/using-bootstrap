@@ -4,3 +4,5 @@ node_modules
 package-lock.json
 gulpfile.js
 Gruntfile.js
+.DS_Store
+.idea
