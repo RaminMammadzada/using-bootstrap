@@ -1,67 +1,67 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Roboto Condensed', sans-serif;;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .red-background {
-    background-color: #f72210;
+  background-color: #f72210;
 }
 
 .text-red {
-    color: #f72210;
+  color: #f72210;
 }
 
 .background-gray {
-    background-color: #c1d4d7;
+  background-color: #c1d4d7;
 }
 
 .purple-background {
-    background-color: #F4F5F6;
+  background-color: #f4f5f6;
 }
 
 .weather {
-    height: 24px;
-    width: 24px;
+  height: 24px;
+  width: 24px;
 }
 
 .large-logo {
-    width: 400px;
-    height: auto;
+  width: 400px;
+  height: auto;
 }
 
 .small-logo {
-    width: 140px;
-    height: auto;
+  width: 140px;
+  height: auto;
 }
 
 .scrollable {
-    margin-top:30px;
-    overflow-y:scroll;
-    height:100%;
+  margin-top: 30px;
+  overflow-y: scroll;
+  height: 100%;
 }
 
 .vs::before,
 .vs::after {
-    content: "";
-    display: block;
-    background-color: #d9d9d9;
-    height: 1px;
-    position: absolute;
-    top: 10px;
-    left: 0;
-    right: 0;
-    z-index: -1;
+  content: "";
+  display: block;
+  background-color: #d9d9d9;
+  height: 1px;
+  position: absolute;
+  top: 10px;
+  left: 0;
+  right: 0;
+  z-index: -1;
 }
 
 .vs::after {
-    top: 12px;
+  top: 12px;
 }
 
 @media (max-width: 412px) {
-    .container-fluid {
-        min-width: 420px;
-    }
+  .container-fluid {
+    min-width: 420px;
+  }
 }
