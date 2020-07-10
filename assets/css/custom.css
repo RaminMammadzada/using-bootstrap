@@ -1,13 +1,10 @@
 * {
-    /*margin: 0 auto;*/
-    /*padding: 0 auto;*/
     box-sizing: border-box;
 }
 
 body {
     font-family: 'Roboto Condensed', sans-serif;;
 }
-
 
 .red-background {
     background-color: #f72210;
@@ -46,10 +43,6 @@ body {
     height:100%;
 }
 
-.debate-img {
-
-}
-
 .vs::before,
 .vs::after {
     content: "";
@@ -67,32 +60,8 @@ body {
     top: 12px;
 }
 
-/*.top-story {*/
-/*    order: 1;*/
-/*    -webkit-order: 1;*/
-/*}*/
-
-/*.featured-stories {*/
-/*    order: 2;*/
-/*    -webkit-order: 2;*/
-/*}*/
-
-/*.my-turn {*/
-/*    order: 5;*/
-/*    -webkit-order: 5;*/
-/*}*/
-
-/*.culture-and-travel {*/
-/*    order: 6;*/
-/*    -webkit-order: 6;*/
-/*}*/
-
-/*.more-stories {*/
-/*    order: 4;*/
-/*    -webkit-order: 4;*/
-/*}*/
-
-/*.debade-and-opinion {*/
-/*    order: 3;*/
-/*    -webkit-order: 3;*/
-/*}*/
+@media (max-width: 412px) {
+    .container-fluid {
+        min-width: 420px;
+    }
+}
