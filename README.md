@@ -28,8 +28,9 @@ To get a local copy up and running follow these simple example steps.
 
 ### Usage
 
-``` git clone https://github.com/RaminMammadzada/using-bootstrap.git ```
-
+- ``` git clone https://github.com/RaminMammadzada/using-bootstrap.git ```
+- Download Bootsrap-4.5.0-dist and font-awesome-4.7.0 libraries and locate it in assets/ folder.
+- Then open the index.html file in your favorite browser.
 
 ## Authors
 
