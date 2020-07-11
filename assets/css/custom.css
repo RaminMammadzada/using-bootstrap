@@ -65,3 +65,9 @@ body {
     min-width: 420px;
   }
 }
+
+@media (max-width: 730px) {
+    .subscribe-background {
+        height: 200px;
+    }
+}
