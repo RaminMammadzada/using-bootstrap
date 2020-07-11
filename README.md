@@ -15,7 +15,7 @@ This is the implementation of the newsweek.com frontend page by using Bootstrap.
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/RaminMammadzada/using-bootstrap/519abefa1a6bdc0e138ff3e93214c7eaf12802ab/index.htmlß)
+[Live Demo Link](https://rawcdn.githack.com/RaminMammadzada/using-bootstrap/7891278b9428020bb4a1c5356b9095c6f1a2cbd1/index.html)
 
 
 ## Getting Started
