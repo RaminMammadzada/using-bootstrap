@@ -66,8 +66,7 @@ body {
   }
 }
 
-@media (max-width: 730px) {
-  .subscribe-background {
-    height: 200px;
-  }
+
+.subscribe-background {
+    height: 350px;
 }
