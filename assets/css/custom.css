@@ -6,13 +6,13 @@ body {
   font-family: "Roboto Condensed", sans-serif;
 }
 
-.top-navbar li a{
-    padding: 0;
+.top-navbar li a {
+  padding: 0;
 }
 
 .top-navbar li {
-    display: block;
-    float: left;
+  display: block;
+  float: left;
 }
 
 .red-background {
