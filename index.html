@@ -13,13 +13,2693 @@
       href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="assets/css/custom.css" />
+
     <title>Newsweek</title>
   </head>
 
-  <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+  <body class="container-fluid px-lg-5 px-0">
+    <header class="container-fluid max-auto mx-0 px-0 sticky-top">
+      <div class="mx-0 sticky-top bg-light">
+        <!-- banner in header -->
+        <div
+          class="d-flex justify-content-between flex-nowrap red-background p-3"
+        >
+          <div class="d-none d-lg-flex flex-column justify-content-center pl-4">
+            <a href="#" class="d-flex flex-row text-decoration-none">
+              <img
+                class="weather"
+                src="assets/img/cloud_icon.png"
+                alt="cloud"
+              />
+              <span class="text-white ml-2">28 Bakirkoy, TR ></span>
+            </a>
+            <span class="text-white font-weight-light mt-2"
+              >Tue, Jul 7, 2020</span
+            >
+          </div>
+          <div class="d-none d-lg-block">
+            <a class="website-logo" href="#">
+              <img
+                class="large-logo"
+                src="assets/img/logo_header.png"
+                alt="logo"
+              />
+            </a>
+          </div>
+          <div class="d-lg-none my-auto">
+            <a class="website-logo" href="#">
+              <img
+                class="small-logo"
+                src="assets/img/logo_header.png"
+                alt="logo"
+              />
+            </a>
+          </div>
+          <div class="d-flex align-items-center">
+            <i
+              class="fa fa-user d-md-none text-white px-3"
+              aria-hidden="true"
+            ></i>
+            <a class="d-none d-md-block align-center text-white mr-2" href="#"
+              >LOGIN</a
+            >
+            <button
+              type="button"
+              class="btn font-weight-bold rounded-pill bg-warning mr-3"
+            >
+              SUBSCRIBE >
+            </button>
+            <i
+              class="fa fa-bars d-lg-none d-xl-none text-white"
+              aria-hidden="true"
+            ></i>
+          </div>
+        </div>
+        <!-- first navbar in header -->
+        <nav
+          class="navbar bg-white d-none d-lg-block d-lg-flex align-items-lg-stretch justify-content-between p-0 m-0 border-bottom"
+        >
+          <ul
+            class="top-navbar nav font-weight-bold flex-fill justify-content-between align-items-baseline"
+          >
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">U.S</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">World</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">Business</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark flex-nowrap" href="#"
+                >Tech & Science</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">Culture</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">Newsgeek</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">Sport</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">Health</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark flex-nowrap" href="#">The Debate</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">Vantage</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">Weather</a>
+            </li>
+            <li
+              class="nav-link d-lg-flex align-items-lg-baseline item flex-row p-0"
+            >
+              <input
+                type="text"
+                class="form-control width-20 border-0"
+                placeholder="Search"
+              />
+              <i class="fa fa-search" aria-hidden="true"></i>
+            </li>
+          </ul>
+        </nav>
+        <!-- trending topics navbar in header -->
+        <nav
+          class="navbar bg-white d-none d-lg-block d-lg-flex position-relative justify-content-left border-bottom"
+        >
+          <ul
+            class="flex-nowrap nav navbar-expand-lg navbar-light font-weight-bold"
+          >
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">TRENDING</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black-50" href="#">DONALD TRUMP</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black-50" href="#">JOE BIDEN</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black-50 flex-nowrap" href="#">CHINA</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black-50" href="#">CORONAVIRUS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black-50" href="#">2020 ELECTION</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="container-fluid">
+      <!-- featured stories, top story, the debate and opinion part -->
+      <div class="row mx-auto">
+        <!-- featured stories -->
+        <div class="mt-3 col-md-5 col-lg order-md-1 order-sm-2 order-x">
+          <h6 class="text-secondary font-weight-bold">
+            FEATURED STORIES
+          </h6>
+          <!-- featured story 1 -->
+          <div class="pb-2 border-bottom">
+            <div class="card">
+              <a href="#">
+                <img
+                  class="card-img-top position-relative"
+                  src="https://d.newsweek.com/en/full/1607950/naya-rivera.webp?w=397&h=265&q=90&f=96499444136cde9a03f7c9dd5050dd70"
+                  alt="picture"
+                />
+              </a>
+              <div class="card-img-overlay p-0 d-flex align-items-end">
+                <p
+                  class="position-absolute px-3 py-2 bg-light font-weight-bold text-red"
+                >
+                  CULTURE
+                </p>
+              </div>
+            </div>
+
+            <div class="card-body pt-2 p-0">
+              <h5 class="card-title">
+                <a href="#" class="font-weight-bold text-body"
+                  >Search For Naya Rivera Becomes a Recovery Operation</a
+                >
+              </h5>
+              <p class="card-text font-weight-light">
+                After going missing on Wednesday night, the search for Naya
+                Rivera has shifted from a rescue mission to a recovery mission.
+              </p>
+            </div>
+          </div>
+          <!-- /featured story 1 -->
+          <!-- featured story 2 -->
+          <div class="pb-2 border-bottom">
+            <div class="card-body pt-2 p-0">
+              <h5 class="card-title">
+                <a href="#" class="font-weight-bold text-body"
+                  >The 'Glee' Cast's Tragic History: From Cory Monteith to Mark
+                  Salling</a
+                >
+              </h5>
+            </div>
+          </div>
+          <!-- /featured story 2 -->
+          <!-- featured story 3 -->
+          <div class="pb-2 border-bottom">
+            <div class="card">
+              <a href="#">
+                <img
+                  class="card-img-top position-relative"
+                  src="https://d.newsweek.com/en/full/1608089/steve-mnuchin-coronavirus-stimulus-checks.webp?w=397&h=265&q=90&f=1202321dbbee2eda242f3183198990bc"
+                  alt="picture"
+                />
+              </a>
+              <div class="card-img-overlay p-0 d-flex align-items-end">
+                <p
+                  class="position-absolute px-3 py-2 bg-light font-weight-bold text-red"
+                >
+                  U.S.
+                </p>
+              </div>
+            </div>
+
+            <div class="card-body pt-2 p-0">
+              <h5 class="card-title">
+                <a href="#" class="font-weight-bold text-body"
+                  >Americans May Get Stimulus Checks 'Very Quickly' if Deal
+                  Reached: Mnuchin</a
+                >
+              </h5>
+              <p class="card-text font-weight-light">
+                Treasury Secretary Steve Mnuchin wouldn't give details on what
+                the next round of payments could look like but said the White
+                House does support them.
+              </p>
+            </div>
+          </div>
+          <!-- /featured story 3 -->
+          <!-- featured story 4 -->
+          <div class="pb-2 border-bottom">
+            <div class="card">
+              <a href="#">
+                <img
+                  class="card-img-top position-relative"
+                  src="https://d.newsweek.com/en/full/1607998/donald-trump.webp?w=397&h=265&q=90&f=b980c8b02928397a1749413b0b94f7f6"
+                  alt="picture"
+                />
+              </a>
+              <div class="card-img-overlay p-0 d-flex align-items-end">
+                <p
+                  class="position-absolute px-3 py-2 bg-light font-weight-bold text-red"
+                >
+                  NEWS
+                </p>
+              </div>
+            </div>
+
+            <div class="card-body pt-2 p-0">
+              <h5 class="card-title">
+                <a href="#" class="font-weight-bold text-body"
+                  >In Critical Swing States, Trump Tops Biden in Primary Voter
+                  Turnout</a
+                >
+              </h5>
+              <p class="card-text font-weight-light">
+                Former Vice President Joe Biden, seen as the Democratic Party's
+                top choice for its presidential nomination, earned less primary
+                votes than President Donald Trump in Pennsylvania, Ohio,
+                Wisconsin and Florida.
+              </p>
+            </div>
+          </div>
+          <!-- /featured story 4 -->
+          <!-- featured story 5 -->
+          <div class="pb-2 border-bottom">
+            <div class="card">
+              <a href="#">
+                <img
+                  class="card-img-top position-relative"
+                  src="https://d.newsweek.com/en/full/1607983/tiktok.webp?w=397&h=265&q=90&f=79f6d78549c505fb3c9fc61fb257c15f"
+                  alt="picture"
+                />
+              </a>
+              <div class="card-img-overlay p-0 d-flex align-items-end">
+                <p
+                  class="position-absolute px-3 py-2 bg-light font-weight-bold text-red"
+                >
+                  TECH & SCIENCE
+                </p>
+              </div>
+            </div>
+
+            <div class="card-body pt-2 p-0">
+              <h5 class="card-title">
+                <a href="#" class="font-weight-bold text-body"
+                  >Is TikTok About to be Banned or Shut Down in the U.S.?</a
+                >
+              </h5>
+              <p class="card-text font-weight-light">
+                President Donald Trump confirmed this week that U.S. officials
+                are currently considering a ban on the short form video
+                application, which is owned by Chinese tech company ByteDance.
+              </p>
+            </div>
+          </div>
+          <!-- /featured story 5 -->
+
+          <!-- featured story 6 -->
+          <div class="pb-2 border-bottom">
+            <div class="card">
+              <a href="#">
+                <img
+                  class="card-img-top position-relative"
+                  src="https://d.newsweek.com/en/full/1608161/two-people-sit-coney-island-boardwalk.webp?w=397&h=265&q=90&f=1310ebb460e678023bce1d2b68ed9491"
+                  alt="picture"
+                />
+              </a>
+              <div class="card-img-overlay p-0 d-flex align-items-end">
+                <p
+                  class="position-absolute px-3 py-2 bg-light font-weight-bold text-red"
+                >
+                  WORLD
+                </p>
+              </div>
+            </div>
+
+            <div class="card-body pt-2 p-0">
+              <h5 class="card-title">
+                <a href="#" class="font-weight-bold text-body"
+                  >Neo-Nazis Want to 'Infect' Jews and Muslims with COVID-19,
+                  Report Warns</a
+                >
+              </h5>
+              <p class="card-text font-weight-light">
+                "Islamists have also claimed that COVID-19 is punishment on
+                China for their treatment of Uighur Muslims. Other conspiracy
+                theories suggest the virus is part of a Jewish plot or that 5G
+                is to blame."
+              </p>
+            </div>
+          </div>
+          <!-- /featured story 6 -->
+        </div>
+
+        <!-- top stories, my turn, culture and travel, more stories -->
+        <div class="mt-3 col-md-7 col-lg-5 order-md-2 order-sm-1 order-first">
+          <!-- top story -->
+          <div class="container px-0 mx-0">
+            <h6 class="text-secondary font-weight-bold">
+              TOP STORY
+            </h6>
+            <div>
+              <div class="card">
+                <a href="#">
+                  <img
+                    class="card-img-top position-relative img-fluid"
+                    src="https://d.newsweek.com/en/full/1601062/donald-trump-scotus-decision-finances.webp?w=591&h=364&f=23cde0158450e984baad3b41a1fe180f"
+                    alt="picture"
+                  />
+                </a>
+                <div class="card-img-overlay p-0 d-flex align-items-end">
+                  <p
+                    class="position-absolute px-3 py-2 bg-light font-weight-bold text-red"
+                  >
+                    WORLD
+                  </p>
+                </div>
+              </div>
+
+              <div class="card-body pt-2 p-0">
+                <h5 class="card-title">
+                  <a href="#" class="font-weight-bold text-body"
+                    >Trump's Tax Returns Fair Game for New York Prosecutors,
+                    Supreme Court Rules</a
+                  >
+                </h5>
+                <p class="card-text font-weight-light">
+                  This was the first time that the president's financial records
+                  were under scrutiny from the Supreme Court.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- /top story -->
+          <!-- my turn -->
+          <div class="d-none d-md-block container-fluid px-0 mx-0">
+            <h6 class="my-3 text-secondary font-weight-bold">
+              MY TURN
+            </h6>
+            <div class="d-md-flex">
+              <div class="col-md col-sm-12 px-0">
+                <a href="#" class="card text-decoration-none">
+                  <img
+                    class="card-img-top"
+                    src="https://d.newsweek.com/en/full/1607117/islam-muslim-religion.webp?w=397&h=397&f=dbff522e6891b03fc69ba9b43ef69d9a"
+                    alt="picture"
+                  />
+                </a>
+                <div class="card-body p-0 pt-1">
+                  <a
+                    href="#"
+                    class="text-decoration-none card-title text-secondary font-weight-bold"
+                    >'I Am A White Western Woman—I Converted From Christianity
+                    To Islam'</a
+                  >
+                </div>
+              </div>
+              <div class="col-md col-sm-12 px-3">
+                <a href="#" class="card text-decoration-none">
+                  <img
+                    class="card-img-top"
+                    src="https://d.newsweek.com/en/full/1607531/florida-beaches-grim-reaper-coronavirus.webp?w=397&h=397&f=765b8dd61681cea234efb316a47b7baa"
+                    alt="picture"
+                  />
+                </a>
+                <div class="card-body p-0 pt-1">
+                  <a
+                    href="#"
+                    class="text-decoration-none card-title text-secondary font-weight-bold"
+                    >'I'm Patrolling Florida's Overflowing Beaches As the Grim
+                    Reaper'</a
+                  >
+                </div>
+              </div>
+              <div class="col-md col-sm-12 px-0">
+                <a href="#" class="card text-decoration-none">
+                  <img
+                    class="card-img-top"
+                    src="https://d.newsweek.com/en/full/1606512/coming-out-gay-man-lgbtq.webp?w=397&h=397&f=e5075357d04d95b7631c6f10d6fb658b"
+                    alt="picture"
+                  />
+                </a>
+                <div class="card-body p-0 pt-1">
+                  <a
+                    href="#"
+                    class="text-decoration-none card-title text-secondary font-weight-bold"
+                    >'I Came Out As Gay at 90-Years-Old'</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /my turn -->
+          <!-- culture and travel -->
+          <div class="d-none d-md-block container-fluid px-0 mx-0">
+            <h6 class="my-3 text-secondary font-weight-bold">
+              CULTURE & TRAVEL
+            </h6>
+            <div class="d-md-flex">
+              <div class="col-md col-sm-12 px-0">
+                <div class="card">
+                  <a href="#" class="card text-decoration-none">
+                    <img
+                      class="card-img-top"
+                      src="https://d.newsweek.com/en/full/1604673/cul-uncharted-places-banner.webp?w=397&h=397&f=bcd207ee330b4900906b9ba6db319ea5"
+                      alt="picture"
+                    />
+                  </a>
+                  <div class="card-img-overlay p-0 d-flex align-items-end">
+                    <p
+                      class="position-absolute px-3 py-2 background-gray font-weight-bold text-dark"
+                    >
+                      TRAVEL
+                    </p>
+                  </div>
+                </div>
+
+                <div class="card-body p-0 pt-1">
+                  <a
+                    href="#"
+                    class="text-decoration-none card-title text-secondary font-weight-bold"
+                    >World's Most Isolated Places</a
+                  >
+                </div>
+              </div>
+              <div class="col-md col-sm-12 px-3">
+                <div class="card">
+                  <a href="#" class="card text-decoration-none">
+                    <img
+                      class="card-img-top"
+                      src="https://d.newsweek.com/en/full/1603519/50foods-alabama.webp?w=397&h=397&f=e70ae5b771b4f243b7775df59c6b0787"
+                      alt="picture"
+                    />
+                  </a>
+                  <div class="card-img-overlay p-0 d-flex align-items-end">
+                    <p
+                      class="position-absolute px-3 py-2 background-gray font-weight-bold text-dark"
+                    >
+                      FOOD
+                    </p>
+                  </div>
+                </div>
+
+                <div class="card-body p-0 pt-1">
+                  <a
+                    href="#"
+                    class="text-decoration-none card-title text-secondary font-weight-bold"
+                    >50 Dishes, 50 States: A Look at Each State's 'Official'
+                    Food</a
+                  >
+                </div>
+              </div>
+              <div class="col-md col-sm-12 px-0">
+                <div class="card">
+                  <a href="#" class="card text-decoration-none">
+                    <img
+                      class="card-img-top"
+                      src="https://d.newsweek.com/en/full/1604750/area51-11.webp?w=397&h=397&f=f687245e4a35c5ede60938e093f8f61d"
+                      alt="picture"
+                    />
+                  </a>
+                  <div class="card-img-overlay p-0 d-flex align-items-end">
+                    <p
+                      class="position-absolute px-3 py-2 background-gray font-weight-bold text-dark"
+                    >
+                      AREA 51
+                    </p>
+                  </div>
+                </div>
+
+                <div class="card-body p-0 pt-1">
+                  <a
+                    href="#"
+                    class="text-decoration-none card-title text-secondary font-weight-bold"
+                    >Inside the Mysterious Area 51: Aliens, UFOs, Conspiracies
+                    and More
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /culture and travel -->
+          <!-- more stories -->
+          <div class="d-none d-md-block container-fluid px-0 mx-0">
+            <h6 class="my-3 text-secondary font-weight-bold">
+              MORE STORIES
+            </h6>
+            <div class="d-md-flex flex-column">
+              <div class="border-top border-bottom">
+                <img
+                  class="pt-2 mr-3 float-left"
+                  src="https://d.newsweek.com/en/full/1608001/dr-anthony-fauci.webp?w=95&h=95&f=6c8a4951b6ffc8784a62268fbc7c702d"
+                  alt="picture"
+                />
+                <div class="px-0 pt-2">
+                  <h5 class="card-title">
+                    <a href="#" class="font-weight-bold small text-body"
+                      >Fauci Urges States With Virus Surges to 'Seriously Look
+                      at Shutting Down'</a
+                    >
+                  </h5>
+                  <p>
+                    Dr. Anthony Fauci shared recommendations for states seeing
+                    outbreak resurgences during an interview on Wednesday.
+                  </p>
+                </div>
+              </div>
+              <div class="border-bottom">
+                <img
+                  class="pt-2 mr-3 float-left"
+                  src="https://d.newsweek.com/en/full/1598987/george-washington.webp?w=95&h=95&f=6250da9e7accda4c68480b861fe2caea"
+                  alt="picture"
+                />
+                <div class="px-0 pt-2">
+                  <h5 class="card-title">
+                    <a href="#" class="font-weight-bold small text-body"
+                      >Will the Protesters Turn on Washington and Jefferson?</a
+                    >
+                  </h5>
+                  <p>
+                    America's founding fathers established the system that is
+                    now being railed against nationwide.
+                  </p>
+                </div>
+              </div>
+              <div class="border-bottom">
+                <img
+                  class="pt-2 mr-3 float-left"
+                  src="https://d.newsweek.com/en/full/1608001/dr-anthony-fauci.webp?w=95&h=95&f=6c8a4951b6ffc8784a62268fbc7c702d"
+                  alt="picture"
+                />
+                <div class="px-0 pt-2">
+                  <h5 class="card-title">
+                    <a href="#" class="font-weight-bold small text-body"
+                      >Fauci Urges States With Virus Surges to 'Seriously Look
+                      at Shutting Down'</a
+                    >
+                  </h5>
+                  <p>
+                    Dr. Anthony Fauci shared recommendations for states seeing
+                    outbreak resurgences during an interview on Wednesday.
+                  </p>
+                </div>
+              </div>
+              <div class="border-bottom">
+                <img
+                  class="pt-2 mr-3 float-left"
+                  src="https://d.newsweek.com/en/full/1598987/george-washington.webp?w=95&h=95&f=6250da9e7accda4c68480b861fe2caea"
+                  alt="picture"
+                />
+                <div class="px-0 pt-2">
+                  <h5 class="card-title">
+                    <a href="#" class="font-weight-bold small text-body"
+                      >Will the Protesters Turn on Washington and Jefferson?</a
+                    >
+                  </h5>
+                  <p>
+                    America's founding fathers established the system that is
+                    now being railed against nationwide.
+                  </p>
+                </div>
+              </div>
+              <div class="border-bottom">
+                <img
+                  class="pt-2 mr-3 float-left"
+                  src="https://d.newsweek.com/en/full/1608001/dr-anthony-fauci.webp?w=95&h=95&f=6c8a4951b6ffc8784a62268fbc7c702d"
+                  alt="picture"
+                />
+                <div class="px-0 pt-2">
+                  <h5 class="card-title">
+                    <a href="#" class="font-weight-bold small text-body"
+                      >Fauci Urges States With Virus Surges to 'Seriously Look
+                      at Shutting Down'</a
+                    >
+                  </h5>
+                  <p>
+                    Dr. Anthony Fauci shared recommendations for states seeing
+                    outbreak resurgences during an interview on Wednesday.
+                  </p>
+                </div>
+              </div>
+              <div class="border-bottom">
+                <img
+                  class="pt-2 mr-3 float-left"
+                  src="https://d.newsweek.com/en/full/1598987/george-washington.webp?w=95&h=95&f=6250da9e7accda4c68480b861fe2caea"
+                  alt="picture"
+                />
+                <div class="px-0 pt-2">
+                  <h5 class="card-title">
+                    <a href="#" class="font-weight-bold small text-body"
+                      >Will the Protesters Turn on Washington and Jefferson?</a
+                    >
+                  </h5>
+                  <p>
+                    America's founding fathers established the system that is
+                    now being railed against nationwide.
+                  </p>
+                </div>
+              </div>
+              <div class="border-bottom">
+                <img
+                  class="pt-2 mr-3 float-left"
+                  src="https://d.newsweek.com/en/full/1608001/dr-anthony-fauci.webp?w=95&h=95&f=6c8a4951b6ffc8784a62268fbc7c702d"
+                  alt="picture"
+                />
+                <div class="px-0 pt-2">
+                  <h5 class="card-title">
+                    <a href="#" class="font-weight-bold small text-body"
+                      >Fauci Urges States With Virus Surges to 'Seriously Look
+                      at Shutting Down'</a
+                    >
+                  </h5>
+                  <p>
+                    Dr. Anthony Fauci shared recommendations for states seeing
+                    outbreak resurgences during an interview on Wednesday.
+                  </p>
+                </div>
+              </div>
+              <div class="border-bottom">
+                <img
+                  class="pt-2 mr-3 float-left"
+                  src="https://d.newsweek.com/en/full/1598987/george-washington.webp?w=95&h=95&f=6250da9e7accda4c68480b861fe2caea"
+                  alt="picture"
+                />
+                <div class="px-0 pt-2">
+                  <h5 class="card-title">
+                    <a href="#" class="font-weight-bold small text-body"
+                      >Will the Protesters Turn on Washington and Jefferson?</a
+                    >
+                  </h5>
+                  <p>
+                    America's founding fathers established the system that is
+                    now being railed against nationwide.
+                  </p>
+                </div>
+              </div>
+              <div class="border-bottom">
+                <img
+                  class="pt-2 mr-3 float-left"
+                  src="https://d.newsweek.com/en/full/1608001/dr-anthony-fauci.webp?w=95&h=95&f=6c8a4951b6ffc8784a62268fbc7c702d"
+                  alt="picture"
+                />
+                <div class="px-0 pt-2">
+                  <h5 class="card-title">
+                    <a href="#" class="font-weight-bold small text-body"
+                      >Fauci Urges States With Virus Surges to 'Seriously Look
+                      at Shutting Down'</a
+                    >
+                  </h5>
+                  <p>
+                    Dr. Anthony Fauci shared recommendations for states seeing
+                    outbreak resurgences during an interview on Wednesday.
+                  </p>
+                </div>
+              </div>
+              <div class="border-bottom">
+                <img
+                  class="pt-2 mr-3 float-left"
+                  src="https://d.newsweek.com/en/full/1598987/george-washington.webp?w=95&h=95&f=6250da9e7accda4c68480b861fe2caea"
+                  alt="picture"
+                />
+                <div class="px-0 pt-2">
+                  <h5 class="card-title">
+                    <a href="#" class="font-weight-bold small text-body"
+                      >Will the Protesters Turn on Washington and Jefferson?</a
+                    >
+                  </h5>
+                  <p>
+                    America's founding fathers established the system that is
+                    now being railed against nationwide.
+                  </p>
+                </div>
+              </div>
+              <div class="border-bottom">
+                <img
+                  class="pt-2 mr-3 float-left"
+                  src="https://d.newsweek.com/en/full/1608001/dr-anthony-fauci.webp?w=95&h=95&f=6c8a4951b6ffc8784a62268fbc7c702d"
+                  alt="picture"
+                />
+                <div class="px-0 pt-2">
+                  <h5 class="card-title">
+                    <a href="#" class="font-weight-bold small text-body"
+                      >Fauci Urges States With Virus Surges to 'Seriously Look
+                      at Shutting Down'</a
+                    >
+                  </h5>
+                  <p>
+                    Dr. Anthony Fauci shared recommendations for states seeing
+                    outbreak resurgences during an interview on Wednesday.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /more stories -->
+        </div>
+
+        <!-- the debate and opinion part -->
+        <div class="mt-3 col-md col-lg order-md-3 order-sm-3">
+          <h6 class="text-secondary font-weight-bold border-bottom pb-3">
+            THE DEBATE
+          </h6>
+          <div>
+            <div class="text-center">
+              <span class="text-light bg-dark"></span>
+            </div>
+            <div>
+              <a href="#"
+                ><img
+                  class="pt-2 mr-2 float-left"
+                  src="https://d.newsweek.com/en/full/1599103/boris-epshteyn.webp?w=63&h=63&f=5b8dd9234d26dac7d8b1d2628da59c83"
+                  alt="picture"
+              /></a>
+
+              <div class="px-0 pt-2">
+                <a href="#" class="text-dark"
+                  ><h5 class="mt-0">
+                    The U.S. Should Adopt a Regime Change Strategy for Iran
+                  </h5></a
+                >
+                <p><span class="text-black-50">BY</span> RACHEL BOVARD</p>
+              </div>
+            </div>
+
+            <div class="vs position-relative text-center">
+              <span class="text-light p-2 rounded-circle bg-dark">VS</span>
+            </div>
+
+            <div class="border-bottom">
+              <a href="#"
+                ><img
+                  class="pt-2 mr-2 float-right"
+                  src="https://d.newsweek.com/en/full/1599103/boris-epshteyn.webp?w=63&h=63&f=5b8dd9234d26dac7d8b1d2628da59c83"
+                  alt="picture"
+              /></a>
+
+              <div class="px-0 pt-2">
+                <a href="#" class="text-dark"
+                  ><h5 class="mt-0">
+                    The U.S. Should Adopt a Regime Change Strategy for Iran
+                  </h5></a
+                >
+                <p><span class="text-black-50">BY</span> RACHEL BOVARD</p>
+              </div>
+            </div>
+          </div>
+          <h6 class="mt-4 text-secondary font-weight-bold">
+            OPINION
+          </h6>
+          <div class="media border-bottom pt-3 pb-0">
+            <a href="#"
+              ><img
+                class="mr-2"
+                src="https://d.newsweek.com/en/full/1599103/boris-epshteyn.webp?w=63&h=63&f=5b8dd9234d26dac7d8b1d2628da59c83"
+                alt="picture"
+            /></a>
+
+            <div class="media-body">
+              <h5>
+                <a href="#" class="text-dark font-weight-bold"
+                  >The Supreme Court's Culture War Whiplash Is All in Your
+                  Head</a
+                >
+              </h5>
+              <p class="font-weight-bold text-black-50">BY NIGEL FARAGE</p>
+            </div>
+          </div>
+          <div class="media border-bottom pt-3 pb-0">
+            <a href="#"
+              ><img
+                class="mr-2"
+                src="https://d.newsweek.com/en/full/1599103/boris-epshteyn.webp?w=63&h=63&f=5b8dd9234d26dac7d8b1d2628da59c83"
+                alt="picture"
+            /></a>
+
+            <div class="media-body">
+              <h5>
+                <a href="#" class="text-dark font-weight-bold"
+                  >The Supreme Court's Culture War Whiplash Is All in Your
+                  Head</a
+                >
+              </h5>
+              <p class="font-weight-bold text-black-50">BY NIGEL FARAGE</p>
+            </div>
+          </div>
+          <div class="media border-bottom pt-3 pb-0">
+            <a href="#"
+              ><img
+                class="mr-2"
+                src="https://d.newsweek.com/en/full/1599103/boris-epshteyn.webp?w=63&h=63&f=5b8dd9234d26dac7d8b1d2628da59c83"
+                alt="picture"
+            /></a>
+
+            <div class="media-body">
+              <h5>
+                <a href="#" class="text-dark font-weight-bold"
+                  >The Supreme Court's Culture War Whiplash Is All in Your
+                  Head</a
+                >
+              </h5>
+              <p class="font-weight-bold text-black-50">BY NIGEL FARAGE</p>
+            </div>
+          </div>
+          <div class="media border-bottom pt-3 pb-0">
+            <a href="#"
+              ><img
+                class="mr-2"
+                src="https://d.newsweek.com/en/full/1599103/boris-epshteyn.webp?w=63&h=63&f=5b8dd9234d26dac7d8b1d2628da59c83"
+                alt="picture"
+            /></a>
+
+            <div class="media-body">
+              <h5>
+                <a href="#" class="text-dark font-weight-bold"
+                  >The Supreme Court's Culture War Whiplash Is All in Your
+                  Head</a
+                >
+              </h5>
+              <p class="font-weight-bold text-black-50">BY NIGEL FARAGE</p>
+            </div>
+          </div>
+          <div class="media border-bottom pt-3 pb-0">
+            <a href="#"
+              ><img
+                class="mr-2"
+                src="https://d.newsweek.com/en/full/1599103/boris-epshteyn.webp?w=63&h=63&f=5b8dd9234d26dac7d8b1d2628da59c83"
+                alt="picture"
+            /></a>
+
+            <div class="media-body">
+              <h5>
+                <a href="#" class="text-dark font-weight-bold"
+                  >The Supreme Court's Culture War Whiplash Is All in Your
+                  Head</a
+                >
+              </h5>
+              <p class="font-weight-bold text-black-50">BY NIGEL FARAGE</p>
+            </div>
+          </div>
+          <div class="media border-bottom pt-3 pb-0">
+            <a href="#"
+              ><img
+                class="mr-2"
+                src="https://d.newsweek.com/en/full/1599103/boris-epshteyn.webp?w=63&h=63&f=5b8dd9234d26dac7d8b1d2628da59c83"
+                alt="picture"
+            /></a>
+
+            <div class="media-body">
+              <h5>
+                <a href="#" class="text-dark font-weight-bold"
+                  >The Supreme Court's Culture War Whiplash Is All in Your
+                  Head</a
+                >
+              </h5>
+              <p class="font-weight-bold text-black-50">BY NIGEL FARAGE</p>
+            </div>
+          </div>
+
+          <div
+            class="d-none d-md-block d-lg-none d-xl-none mt-3 mx-4 p-4 purple-background"
+          >
+            <div
+              class="d-flex flex-row align-items-baseline justify-content-center"
+            >
+              <h5 class="float-left mr-2 mt-2">
+                <span class="px-1 font-weight-bold text-light red-background"
+                  >N</span
+                >
+              </h5>
+              <h5 class="font-weight-bold">
+                START YOUR DAY WITH OUR TOP 5 ARTICLES
+              </h5>
+            </div>
+            <div class="form-group">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Email address"
+              />
+            </div>
+            <button
+              class="my-2 btn btn-block red-background text-light"
+              type="button"
+            >
+              FREE SIGN UP >
+            </button>
+          </div>
+        </div>
+
+        <div
+          class="d-block d-sm-none mt-3 col-md-7 col-lg-5 d-none d-sm-block d-md-none order-sm-4"
+        >
+          <!-- more stories -->
+          <div class="container-fluid px-0 mx-0">
+            <h6 class="my-3 text-secondary font-weight-bold">
+              MORE STORIES
+            </h6>
+            <div class="d-md-flex flex-column">
+              <div class="border-top border-bottom">
+                <img
+                  class="pt-2 mr-3 float-left"
+                  src="https://d.newsweek.com/en/full/1608001/dr-anthony-fauci.webp?w=95&h=95&f=6c8a4951b6ffc8784a62268fbc7c702d"
+                  alt="picture"
+                />
+                <div class="px-0 pt-2">
+                  <h5 class="card-title">
+                    <a href="#" class="font-weight-bold small text-body"
+                      >Fauci Urges States With Virus Surges to 'Seriously Look
+                      at Shutting Down'</a
+                    >
+                  </h5>
+                  <p>
+                    Dr. Anthony Fauci shared recommendations for states seeing
+                    outbreak resurgences during an interview on Wednesday.
+                  </p>
+                </div>
+              </div>
+              <div class="border-bottom">
+                <img
+                  class="pt-2 mr-3 float-left"
+                  src="https://d.newsweek.com/en/full/1598987/george-washington.webp?w=95&h=95&f=6250da9e7accda4c68480b861fe2caea"
+                  alt="picture"
+                />
+                <div class="px-0 pt-2">
+                  <h5 class="card-title">
+                    <a href="#" class="font-weight-bold small text-body"
+                      >Will the Protesters Turn on Washington and Jefferson?</a
+                    >
+                  </h5>
+                  <p>
+                    America's founding fathers established the system that is
+                    now being railed against nationwide.
+                  </p>
+                </div>
+              </div>
+              <div class="border-bottom">
+                <img
+                  class="pt-2 mr-3 float-left"
+                  src="https://d.newsweek.com/en/full/1608001/dr-anthony-fauci.webp?w=95&h=95&f=6c8a4951b6ffc8784a62268fbc7c702d"
+                  alt="picture"
+                />
+                <div class="px-0 pt-2">
+                  <h5 class="card-title">
+                    <a href="#" class="font-weight-bold small text-body"
+                      >Fauci Urges States With Virus Surges to 'Seriously Look
+                      at Shutting Down'</a
+                    >
+                  </h5>
+                  <p>
+                    Dr. Anthony Fauci shared recommendations for states seeing
+                    outbreak resurgences during an interview on Wednesday.
+                  </p>
+                </div>
+              </div>
+              <div class="border-bottom">
+                <img
+                  class="pt-2 mr-3 float-left"
+                  src="https://d.newsweek.com/en/full/1598987/george-washington.webp?w=95&h=95&f=6250da9e7accda4c68480b861fe2caea"
+                  alt="picture"
+                />
+                <div class="px-0 pt-2">
+                  <h5 class="card-title">
+                    <a href="#" class="font-weight-bold small text-body"
+                      >Will the Protesters Turn on Washington and Jefferson?</a
+                    >
+                  </h5>
+                  <p>
+                    America's founding fathers established the system that is
+                    now being railed against nationwide.
+                  </p>
+                </div>
+              </div>
+              <div class="border-bottom">
+                <img
+                  class="pt-2 mr-3 float-left"
+                  src="https://d.newsweek.com/en/full/1608001/dr-anthony-fauci.webp?w=95&h=95&f=6c8a4951b6ffc8784a62268fbc7c702d"
+                  alt="picture"
+                />
+                <div class="px-0 pt-2">
+                  <h5 class="card-title">
+                    <a href="#" class="font-weight-bold small text-body"
+                      >Fauci Urges States With Virus Surges to 'Seriously Look
+                      at Shutting Down'</a
+                    >
+                  </h5>
+                  <p>
+                    Dr. Anthony Fauci shared recommendations for states seeing
+                    outbreak resurgences during an interview on Wednesday.
+                  </p>
+                </div>
+              </div>
+              <div class="border-bottom">
+                <img
+                  class="pt-2 mr-3 float-left"
+                  src="https://d.newsweek.com/en/full/1598987/george-washington.webp?w=95&h=95&f=6250da9e7accda4c68480b861fe2caea"
+                  alt="picture"
+                />
+                <div class="px-0 pt-2">
+                  <h5 class="card-title">
+                    <a href="#" class="font-weight-bold small text-body"
+                      >Will the Protesters Turn on Washington and Jefferson?</a
+                    >
+                  </h5>
+                  <p>
+                    America's founding fathers established the system that is
+                    now being railed against nationwide.
+                  </p>
+                </div>
+              </div>
+              <div class="border-bottom">
+                <img
+                  class="pt-2 mr-3 float-left"
+                  src="https://d.newsweek.com/en/full/1608001/dr-anthony-fauci.webp?w=95&h=95&f=6c8a4951b6ffc8784a62268fbc7c702d"
+                  alt="picture"
+                />
+                <div class="px-0 pt-2">
+                  <h5 class="card-title">
+                    <a href="#" class="font-weight-bold small text-body"
+                      >Fauci Urges States With Virus Surges to 'Seriously Look
+                      at Shutting Down'</a
+                    >
+                  </h5>
+                  <p>
+                    Dr. Anthony Fauci shared recommendations for states seeing
+                    outbreak resurgences during an interview on Wednesday.
+                  </p>
+                </div>
+              </div>
+              <div class="border-bottom">
+                <img
+                  class="pt-2 mr-3 float-left"
+                  src="https://d.newsweek.com/en/full/1598987/george-washington.webp?w=95&h=95&f=6250da9e7accda4c68480b861fe2caea"
+                  alt="picture"
+                />
+                <div class="px-0 pt-2">
+                  <h5 class="card-title">
+                    <a href="#" class="font-weight-bold small text-body"
+                      >Will the Protesters Turn on Washington and Jefferson?</a
+                    >
+                  </h5>
+                  <p>
+                    America's founding fathers established the system that is
+                    now being railed against nationwide.
+                  </p>
+                </div>
+              </div>
+              <div class="border-bottom">
+                <img
+                  class="pt-2 mr-3 float-left"
+                  src="https://d.newsweek.com/en/full/1608001/dr-anthony-fauci.webp?w=95&h=95&f=6c8a4951b6ffc8784a62268fbc7c702d"
+                  alt="picture"
+                />
+                <div class="px-0 pt-2">
+                  <h5 class="card-title">
+                    <a href="#" class="font-weight-bold small text-body"
+                      >Fauci Urges States With Virus Surges to 'Seriously Look
+                      at Shutting Down'</a
+                    >
+                  </h5>
+                  <p>
+                    Dr. Anthony Fauci shared recommendations for states seeing
+                    outbreak resurgences during an interview on Wednesday.
+                  </p>
+                </div>
+              </div>
+              <div class="border-bottom">
+                <img
+                  class="pt-2 mr-3 float-left"
+                  src="https://d.newsweek.com/en/full/1598987/george-washington.webp?w=95&h=95&f=6250da9e7accda4c68480b861fe2caea"
+                  alt="picture"
+                />
+                <div class="px-0 pt-2">
+                  <h5 class="card-title">
+                    <a href="#" class="font-weight-bold small text-body"
+                      >Will the Protesters Turn on Washington and Jefferson?</a
+                    >
+                  </h5>
+                  <p>
+                    America's founding fathers established the system that is
+                    now being railed against nationwide.
+                  </p>
+                </div>
+              </div>
+              <div class="border-bottom">
+                <img
+                  class="pt-2 mr-3 float-left"
+                  src="https://d.newsweek.com/en/full/1608001/dr-anthony-fauci.webp?w=95&h=95&f=6c8a4951b6ffc8784a62268fbc7c702d"
+                  alt="picture"
+                />
+                <div class="px-0 pt-2">
+                  <h5 class="card-title">
+                    <a href="#" class="font-weight-bold small text-body"
+                      >Fauci Urges States With Virus Surges to 'Seriously Look
+                      at Shutting Down'</a
+                    >
+                  </h5>
+                  <p>
+                    Dr. Anthony Fauci shared recommendations for states seeing
+                    outbreak resurgences during an interview on Wednesday.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /more stories -->
+          <!-- my turn -->
+          <div class="container-fluid px-0 mx-0">
+            <h6 class="my-3 text-secondary font-weight-bold">
+              MY TURN
+            </h6>
+            <div class="d-md-flex">
+              <div class="col-md col-sm-12 px-0">
+                <a href="#" class="card text-decoration-none">
+                  <img
+                    class="card-img-top"
+                    src="https://d.newsweek.com/en/full/1607117/islam-muslim-religion.webp?w=397&h=397&f=dbff522e6891b03fc69ba9b43ef69d9a"
+                    alt="picture"
+                  />
+                </a>
+                <div class="card-body p-0 pt-1">
+                  <a
+                    href="#"
+                    class="text-decoration-none card-title text-secondary font-weight-bold"
+                    >'I Am A White Western Woman—I Converted From Christianity
+                    To Islam'</a
+                  >
+                </div>
+              </div>
+              <div class="col-md col-sm-12 px-3">
+                <a href="#" class="card text-decoration-none">
+                  <img
+                    class="card-img-top"
+                    src="https://d.newsweek.com/en/full/1607531/florida-beaches-grim-reaper-coronavirus.webp?w=397&h=397&f=765b8dd61681cea234efb316a47b7baa"
+                    alt="picture"
+                  />
+                </a>
+                <div class="card-body p-0 pt-1">
+                  <a
+                    href="#"
+                    class="text-decoration-none card-title text-secondary font-weight-bold"
+                    >'I'm Patrolling Florida's Overflowing Beaches As the Grim
+                    Reaper'</a
+                  >
+                </div>
+              </div>
+              <div class="col-md col-sm-12 px-0">
+                <a href="#" class="card text-decoration-none">
+                  <img
+                    class="card-img-top"
+                    src="https://d.newsweek.com/en/full/1606512/coming-out-gay-man-lgbtq.webp?w=397&h=397&f=e5075357d04d95b7631c6f10d6fb658b"
+                    alt="picture"
+                  />
+                </a>
+                <div class="card-body p-0 pt-1">
+                  <a
+                    href="#"
+                    class="text-decoration-none card-title text-secondary font-weight-bold"
+                    >'I Came Out As Gay at 90-Years-Old'</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /my turn -->
+          <!-- culture and travel -->
+          <div class="container-fluid px-0 mx-0">
+            <h6 class="my-3 text-secondary font-weight-bold">
+              CULTURE & TRAVEL
+            </h6>
+            <div class="d-md-flex">
+              <div class="col-md col-sm-12 px-0">
+                <div class="card">
+                  <a href="#" class="card text-decoration-none">
+                    <img
+                      class="card-img-top"
+                      src="https://d.newsweek.com/en/full/1604673/cul-uncharted-places-banner.webp?w=397&h=397&f=bcd207ee330b4900906b9ba6db319ea5"
+                      alt="picture"
+                    />
+                  </a>
+                  <div class="card-img-overlay p-0 d-flex align-items-end">
+                    <p
+                      class="position-absolute px-3 py-2 background-gray font-weight-bold text-dark"
+                    >
+                      TRAVEL
+                    </p>
+                  </div>
+                </div>
+
+                <div class="card-body p-0 pt-1">
+                  <a
+                    href="#"
+                    class="text-decoration-none card-title text-secondary font-weight-bold"
+                    >World's Most Isolated Places</a
+                  >
+                </div>
+              </div>
+              <div class="col-md col-sm-12 px-3">
+                <div class="card">
+                  <a href="#" class="card text-decoration-none">
+                    <img
+                      class="card-img-top"
+                      src="https://d.newsweek.com/en/full/1603519/50foods-alabama.webp?w=397&h=397&f=e70ae5b771b4f243b7775df59c6b0787"
+                      alt="picture"
+                    />
+                  </a>
+                  <div class="card-img-overlay p-0 d-flex align-items-end">
+                    <p
+                      class="position-absolute px-3 py-2 background-gray font-weight-bold text-dark"
+                    >
+                      FOOD
+                    </p>
+                  </div>
+                </div>
+
+                <div class="card-body p-0 pt-1">
+                  <a
+                    href="#"
+                    class="text-decoration-none card-title text-secondary font-weight-bold"
+                    >50 Dishes, 50 States: A Look at Each State's 'Official'
+                    Food</a
+                  >
+                </div>
+              </div>
+              <div class="col-md col-sm-12 px-0">
+                <div class="card">
+                  <a href="#" class="card text-decoration-none">
+                    <img
+                      class="card-img-top"
+                      src="https://d.newsweek.com/en/full/1604750/area51-11.webp?w=397&h=397&f=f687245e4a35c5ede60938e093f8f61d"
+                      alt="picture"
+                    />
+                  </a>
+                  <div class="card-img-overlay p-0 d-flex align-items-end">
+                    <p
+                      class="position-absolute px-3 py-2 background-gray font-weight-bold text-dark"
+                    >
+                      AREA 51
+                    </p>
+                  </div>
+                </div>
+
+                <div class="card-body p-0 pt-1">
+                  <a
+                    href="#"
+                    class="text-decoration-none card-title text-secondary font-weight-bold"
+                    >Inside the Mysterious Area 51: Aliens, UFOs, Conspiracies
+                    and More
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /culture and travel -->
+        </div>
+      </div>
+
+      <!--  free sign up form on small screens-->
+      <div class="d-block d-md-none mt-3 mx-4 p-4 purple-background">
+        <div
+          class="d-flex flex-row align-items-baseline justify-content-center"
+        >
+          <h5 class="float-left mr-2 mt-2">
+            <span class="px-1 font-weight-bold text-light red-background"
+              >N</span
+            >
+          </h5>
+          <h5 class="font-weight-bold">
+            START YOUR DAY WITH OUR TOP 5 ARTICLES
+          </h5>
+        </div>
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Email address" />
+        </div>
+        <button
+          class="my-2 btn btn-block red-background text-light"
+          type="button"
+        >
+          FREE SIGN UP >
+        </button>
+      </div>
+
+      <!-- in the magazine-->
+      <div class="container-fluid">
+        <div
+          class="border-bottom d-flex flex-row align-items-baseline my-4 justify-content-center"
+        >
+          <h5 class="mr-2 mt-2">
+            <span class="px-1 font-weight-bold text-light red-background"
+              >N</span
+            >
+          </h5>
+          <h5 class="font-weight-bold">
+            IN THE MAGAZINE
+          </h5>
+        </div>
+
+        <div class="row align-items-baseline">
+          <!-- magazine 1-->
+          <div class="pb-2 col-lg-3 col-md-3">
+            <div class="card">
+              <a href="#">
+                <img
+                  class="card-img-top position-relative img-fluid"
+                  src="https://d.newsweek.com/en/full/1605463/us-cover-july-10-17.webp?w=290&h=387&q=90&f=9e75a0a61adba5b4c47bd32b6991f48b"
+                  alt="picture"
+                />
+              </a>
+              <div class="card-img-overlay p-0 d-flex align-items-end">
+                <p
+                  class="position-absolute px-3 py-2 bg-light font-weight-bold text-red"
+                >
+                  JULY 17 ISSUE
+                </p>
+              </div>
+            </div>
+
+            <div class="card-body pt-2 p-0">
+              <h5 class="card-title d-flex justify-content-center">
+                <a href="#" class="font-weight-bold text-body"
+                  >SEE ALL FEATURES ></a
+                >
+              </h5>
+            </div>
+          </div>
+          <!-- /magazine 1-->
+          <!-- magazine 2-->
+          <div class="my-1 col-lg-3 col-md-3">
+            <div class="card my-1">
+              <a href="#">
+                <img
+                  class="card-img-top position-relative img-fluid"
+                  src="https://d.newsweek.com/en/full/1604216/good-list-banner.webp?w=466&h=311&q=90&f=2062901c3efd89779019feae0efa97da"
+                  alt="picture"
+                />
+              </a>
+            </div>
+            <div class="my-2 d-flex flex-row flex-nowrap align-items-baseline">
+              <p class="p-1 mr-2 red-background font-weight-bold text-white">
+                COVER
+              </p>
+              <p class="font-weight-bold text-red">
+                BUSINESS
+              </p>
+            </div>
+
+            <div class="card-body p-0 m-0">
+              <h5 class="card-title d-flex">
+                <a href="#" class="font-weight-bold text-body"
+                  >In Good Company: 50 U.S. Businesses That Stood Out During the
+                  Pandemic</a
+                >
+              </h5>
+            </div>
+          </div>
+          <!-- /magazine 2-->
+          <!-- magazine 3-->
+          <div class="my-1 col-lg-3 col-md-3">
+            <div class="card my-1">
+              <a href="#">
+                <img
+                  class="card-img-top position-relative img-fluid"
+                  src="https://d.newsweek.com/en/full/1603649/fe-blm-global-banner.webp?w=466&h=311&l=50&t=50&q=90&f=5891facf5f34d673e1c8ace8cf160efe"
+                  alt="picture"
+                />
+              </a>
+            </div>
+            <div class="my-2 d-flex flex-row flex-nowrap align-items-baseline">
+              <p class="p-1 mr-2 red-background font-weight-bold text-white">
+                COVER
+              </p>
+              <p class="font-weight-bold text-red">
+                WORLD
+              </p>
+            </div>
+
+            <div class="card-body p-0 m-0">
+              <h5 class="card-title d-flex">
+                <a href="#" class="font-weight-bold text-body"
+                  >BLM Global Leaders: 'It Feels Like There Is Actually Change
+                  Happening Now'</a
+                >
+              </h5>
+            </div>
+          </div>
+          <!-- /magazine 3-->
+          <!-- magazine 4-->
+          <div class="my-1 col-lg-3 col-md-3">
+            <div class="card my-1">
+              <a href="#">
+                <img
+                  class="card-img-top position-relative img-fluid"
+                  src="https://d.newsweek.com/en/full/1604216/good-list-banner.webp?w=466&h=311&q=90&f=2062901c3efd89779019feae0efa97da"
+                  alt="picture"
+                />
+              </a>
+            </div>
+            <div class="my-2 d-flex flex-row flex-nowrap align-items-baseline">
+              <p class="p-1 mr-2 red-background font-weight-bold text-white">
+                COVER
+              </p>
+              <p class="font-weight-bold text-red">
+                BUSINESS
+              </p>
+            </div>
+
+            <div class="card-body p-0 m-0">
+              <h5 class="card-title d-flex">
+                <a href="#" class="font-weight-bold text-body"
+                  >In Good Company: 50 U.S. Businesses That Stood Out During the
+                  Pandemic</a
+                >
+              </h5>
+            </div>
+          </div>
+          <!-- /magazine 4-->
+          <!-- magazine 5-->
+          <div class="my-1 col-lg-3 col-md-3">
+            <div class="card my-1">
+              <a href="#">
+                <img
+                  class="card-img-top position-relative img-fluid"
+                  src="https://d.newsweek.com/en/full/1604216/good-list-banner.webp?w=466&h=311&q=90&f=2062901c3efd89779019feae0efa97da"
+                  alt="picture"
+                />
+              </a>
+            </div>
+            <div class="my-2 d-flex flex-row flex-nowrap align-items-baseline">
+              <p class="p-1 mr-2 red-background font-weight-bold text-white">
+                COVER
+              </p>
+              <p class="font-weight-bold text-red">
+                BUSINESS
+              </p>
+            </div>
+
+            <div class="card-body p-0 m-0">
+              <h5 class="card-title d-flex">
+                <a href="#" class="font-weight-bold text-body"
+                  >In Good Company: 50 U.S. Businesses That Stood Out During the
+                  Pandemic</a
+                >
+              </h5>
+            </div>
+          </div>
+          <!-- /magazine 5-->
+          <!-- magazine 6-->
+          <div class="my-1 col-lg-3 col-md-3">
+            <div class="card my-1">
+              <a href="#">
+                <img
+                  class="card-img-top position-relative img-fluid"
+                  src="https://d.newsweek.com/en/full/1604216/good-list-banner.webp?w=466&h=311&q=90&f=2062901c3efd89779019feae0efa97da"
+                  alt="picture"
+                />
+              </a>
+            </div>
+            <div class="my-2 d-flex flex-row flex-nowrap align-items-baseline">
+              <p class="p-1 mr-2 red-background font-weight-bold text-white">
+                COVER
+              </p>
+              <p class="font-weight-bold text-red">
+                BUSINESS
+              </p>
+            </div>
+
+            <div class="card-body p-0 m-0">
+              <h5 class="card-title d-flex">
+                <a href="#" class="font-weight-bold text-body"
+                  >In Good Company: 50 U.S. Businesses That Stood Out During the
+                  Pandemic</a
+                >
+              </h5>
+            </div>
+          </div>
+          <!-- /magazine 6-->
+          <!-- magazine 7-->
+          <div class="my-1 col-lg-3 col-md-3">
+            <div class="card my-1">
+              <a href="#">
+                <img
+                  class="card-img-top position-relative"
+                  src="https://d.newsweek.com/en/full/1604216/good-list-banner.webp?w=466&h=311&q=90&f=2062901c3efd89779019feae0efa97da"
+                  alt="picture"
+                />
+              </a>
+            </div>
+            <div class="my-2 d-flex flex-row flex-nowrap align-items-baseline">
+              <p class="p-1 mr-2 red-background font-weight-bold text-white">
+                COVER
+              </p>
+              <p class="font-weight-bold text-red">
+                BUSINESS
+              </p>
+            </div>
+
+            <div class="card-body p-0 m-0">
+              <h5 class="card-title d-flex">
+                <a href="#" class="font-weight-bold text-body"
+                  >In Good Company: 50 U.S. Businesses That Stood Out During the
+                  Pandemic</a
+                >
+              </h5>
+            </div>
+          </div>
+          <!-- /magazine 7-->
+          <!-- magazine 8-->
+          <div class="my-1 col-lg-3 col-md-3">
+            <div class="card my-1">
+              <a href="#">
+                <img
+                  class="card-img-top position-relative img-fluid"
+                  src="https://d.newsweek.com/en/full/1604708/down-jackson.webp?w=480&h=320&l=63&t=51&q=90&f=6aa994b38cbdb4a0635bc48065702d5a"
+                  alt="picture"
+                />
+              </a>
+              <div class="card-img-overlay p-0 d-flex align-items-end">
+                <p
+                  class="mb-0 ml-0 p-1 px-2 red-background font-weight-bold text-white"
+                >
+                  IN FOCUS
+                </p>
+              </div>
+            </div>
+
+            <div class="card-body p-0 m-0">
+              <h5 class="card-title">
+                <a href="#" class="font-weight-bold text-body"
+                  >DOWN WITH JACKSON</a
+                >
+              </h5>
+            </div>
+          </div>
+          <!-- /magazine 8-->
+        </div>
+      </div>
+
+      <!-- editor's pick-->
+      <div class="container-fluid border-bottom">
+        <div
+          class="border-bottom d-flex flex-row align-items-baseline my-4 justify-content-center"
+        >
+          <h5 class="mr-2 mt-2">
+            <span class="px-1 font-weight-bold text-light red-background"
+              >N</span
+            >
+          </h5>
+          <h5 class="font-weight-bold">
+            EDITOR'S PICK
+          </h5>
+        </div>
+
+        <div class="row align-items-baseline">
+          <!-- picked 1 -->
+          <div class="my-1 col-lg-3 col-md-6">
+            <div class="card my-1">
+              <a href="#">
+                <img
+                  class="card-img-top position-relative img-fluid"
+                  src="https://d.newsweek.com/en/full/1604708/down-jackson.webp?w=480&h=320&l=63&t=51&q=90&f=6aa994b38cbdb4a0635bc48065702d5a"
+                  alt="picture"
+                />
+              </a>
+              <div class="card-img-overlay p-0 d-flex align-items-end">
+                <p
+                  class="mb-0 ml-0 p-1 px-2 bg-light font-weight-bold text-red"
+                >
+                  SPORTS
+                </p>
+              </div>
+            </div>
+
+            <div class="card-body p-0 m-0">
+              <h5 class="card-title">
+                <a href="#" class="font-weight-bold text-body"
+                  >Texas Republicans Rebuke Governor for Mask Mandate as
+                  COVID-19 Cases Spike</a
+                >
+              </h5>
+              <p>
+                Greg Abbott has faced criticism from members of his own party
+                over the use of his executive powers to try and stem the state's
+                surge in cases.
+              </p>
+            </div>
+          </div>
+          <!-- /picked 1 -->
+          <!-- picked 2 -->
+          <div class="my-1 col-lg-3 col-md-6">
+            <div class="card my-1">
+              <a href="#">
+                <img
+                  class="card-img-top position-relative img-fluid"
+                  src="https://d.newsweek.com/en/full/1604708/down-jackson.webp?w=480&h=320&l=63&t=51&q=90&f=6aa994b38cbdb4a0635bc48065702d5a"
+                  alt="picture"
+                />
+              </a>
+              <div class="card-img-overlay p-0 d-flex align-items-end">
+                <p
+                  class="mb-0 ml-0 p-1 px-2 bg-light font-weight-bold text-red"
+                >
+                  U.S
+                </p>
+              </div>
+            </div>
+
+            <div class="card-body p-0 m-0">
+              <h5 class="card-title">
+                <a href="#" class="font-weight-bold text-body"
+                  >Texas Republicans Rebuke Governor for Mask Mandate as
+                  COVID-19 Cases Spike</a
+                >
+              </h5>
+              <p>
+                Greg Abbott has faced criticism from members of his own party
+                over the use of his executive powers to try and stem the state's
+                surge in cases.
+              </p>
+            </div>
+          </div>
+          <!-- /picked 2 -->
+          <!-- picked 3 -->
+          <div class="my-1 col-lg-3 col-md-6">
+            <div class="card my-1">
+              <a href="#">
+                <img
+                  class="card-img-top position-relative img-fluid"
+                  src="https://d.newsweek.com/en/full/1604708/down-jackson.webp?w=480&h=320&l=63&t=51&q=90&f=6aa994b38cbdb4a0635bc48065702d5a"
+                  alt="picture"
+                />
+              </a>
+              <div class="card-img-overlay p-0 d-flex align-items-end">
+                <p
+                  class="mb-0 ml-0 p-1 px-2 bg-light font-weight-bold text-red"
+                >
+                  WORLD
+                </p>
+              </div>
+            </div>
+
+            <div class="card-body p-0 m-0">
+              <h5 class="card-title">
+                <a href="#" class="font-weight-bold text-body"
+                  >Texas Republicans Rebuke Governor for Mask Mandate as
+                  COVID-19 Cases Spike</a
+                >
+              </h5>
+              <p>
+                Greg Abbott has faced criticism from members of his own party
+                over the use of his executive powers to try and stem the state's
+                surge in cases.
+              </p>
+            </div>
+          </div>
+          <!-- /picked 3 -->
+          <!-- picked 4 -->
+          <div class="my-1 col-lg-3 col-md-6">
+            <div class="card my-1">
+              <a href="#">
+                <img
+                  class="card-img-top position-relative img-fluid"
+                  src="https://d.newsweek.com/en/full/1604708/down-jackson.webp?w=480&h=320&l=63&t=51&q=90&f=6aa994b38cbdb4a0635bc48065702d5a"
+                  alt="picture"
+                />
+              </a>
+              <div class="card-img-overlay p-0 d-flex align-items-end">
+                <p
+                  class="mb-0 ml-0 p-1 px-2 bg-light font-weight-bold text-red"
+                >
+                  NEWS
+                </p>
+              </div>
+            </div>
+
+            <div class="card-body p-0 m-0">
+              <h5 class="card-title">
+                <a href="#" class="font-weight-bold text-body"
+                  >Texas Republicans Rebuke Governor for Mask Mandate as
+                  COVID-19 Cases Spike</a
+                >
+              </h5>
+              <p>
+                Greg Abbott has faced criticism from members of his own party
+                over the use of his executive powers to try and stem the state's
+                surge in cases.
+              </p>
+            </div>
+          </div>
+          <!-- /picked 4 -->
+          <!-- picked 5 -->
+          <div class="my-1 col-lg-3 col-md-6">
+            <div class="card my-1">
+              <a href="#">
+                <img
+                  class="card-img-top position-relative img-fluid"
+                  src="https://d.newsweek.com/en/full/1604708/down-jackson.webp?w=480&h=320&l=63&t=51&q=90&f=6aa994b38cbdb4a0635bc48065702d5a"
+                  alt="picture"
+                />
+              </a>
+              <div class="card-img-overlay p-0 d-flex align-items-end">
+                <p
+                  class="mb-0 ml-0 p-1 px-2 bg-light font-weight-bold text-red"
+                >
+                  TECH & SCIENCE
+                </p>
+              </div>
+            </div>
+
+            <div class="card-body p-0 m-0">
+              <h5 class="card-title">
+                <a href="#" class="font-weight-bold text-body"
+                  >Texas Republicans Rebuke Governor for Mask Mandate as
+                  COVID-19 Cases Spike</a
+                >
+              </h5>
+              <p>
+                Greg Abbott has faced criticism from members of his own party
+                over the use of his executive powers to try and stem the state's
+                surge in cases.
+              </p>
+            </div>
+          </div>
+          <!-- /picked 5 -->
+          <!-- picked 6 -->
+          <div class="my-1 col-lg-3 col-md-6">
+            <div class="card my-1">
+              <a href="#">
+                <img
+                  class="card-img-top position-relative img-fluid"
+                  src="https://d.newsweek.com/en/full/1604708/down-jackson.webp?w=480&h=320&l=63&t=51&q=90&f=6aa994b38cbdb4a0635bc48065702d5a"
+                  alt="picture"
+                />
+              </a>
+              <div class="card-img-overlay p-0 d-flex align-items-end">
+                <p
+                  class="mb-0 ml-0 p-1 px-2 bg-light font-weight-bold text-red"
+                >
+                  SPORTS
+                </p>
+              </div>
+            </div>
+
+            <div class="card-body p-0 m-0">
+              <h5 class="card-title">
+                <a href="#" class="font-weight-bold text-body"
+                  >Texas Republicans Rebuke Governor for Mask Mandate as
+                  COVID-19 Cases Spike</a
+                >
+              </h5>
+              <p>
+                Greg Abbott has faced criticism from members of his own party
+                over the use of his executive powers to try and stem the state's
+                surge in cases.
+              </p>
+            </div>
+          </div>
+          <!-- /picked 6 -->
+          <!-- picked 7 -->
+          <div class="my-1 col-lg-3 col-md-6">
+            <div class="card my-1">
+              <a href="#">
+                <img
+                  class="card-img-top position-relative img-fluid"
+                  src="https://d.newsweek.com/en/full/1604708/down-jackson.webp?w=480&h=320&l=63&t=51&q=90&f=6aa994b38cbdb4a0635bc48065702d5a"
+                  alt="picture"
+                />
+              </a>
+              <div class="card-img-overlay p-0 d-flex align-items-end">
+                <p
+                  class="mb-0 ml-0 p-1 px-2 bg-light font-weight-bold text-red"
+                >
+                  U.S
+                </p>
+              </div>
+            </div>
+
+            <div class="card-body p-0 m-0">
+              <h5 class="card-title">
+                <a href="#" class="font-weight-bold text-body"
+                  >Texas Republicans Rebuke Governor for Mask Mandate as
+                  COVID-19 Cases Spike</a
+                >
+              </h5>
+              <p>
+                Greg Abbott has faced criticism from members of his own party
+                over the use of his executive powers to try and stem the state's
+                surge in cases.
+              </p>
+            </div>
+          </div>
+          <!-- /picked 7 -->
+          <!-- picked 8 -->
+          <div class="my-1 col-lg-3 col-md-6">
+            <div class="card my-1">
+              <a href="#">
+                <img
+                  class="card-img-top position-relative img-fluid"
+                  src="https://d.newsweek.com/en/full/1604708/down-jackson.webp?w=480&h=320&l=63&t=51&q=90&f=6aa994b38cbdb4a0635bc48065702d5a"
+                  alt="picture"
+                />
+              </a>
+              <div class="card-img-overlay p-0 d-flex align-items-end">
+                <p
+                  class="mb-0 ml-0 p-1 px-2 bg-light font-weight-bold text-red"
+                >
+                  WORLD
+                </p>
+              </div>
+            </div>
+
+            <div class="card-body p-0 m-0">
+              <h5 class="card-title">
+                <a href="#" class="font-weight-bold text-body"
+                  >Texas Republicans Rebuke Governor for Mask Mandate as
+                  COVID-19 Cases Spike</a
+                >
+              </h5>
+              <p>
+                Greg Abbott has faced criticism from members of his own party
+                over the use of his executive powers to try and stem the state's
+                surge in cases.
+              </p>
+            </div>
+          </div>
+          <!-- /picked 8 -->
+        </div>
+      </div>
+
+      <!-- U.S. -->
+      <div class="container-fluid d-flex flex-column">
+        <div class="float-left mt-4">
+          <h5 class="font-weight-bold text-red">
+            U.S.
+          </h5>
+        </div>
+        <div class="row border-bottom">
+          <div class="col-lg-4 col-md-4">
+            <div class="card my-1">
+              <a href="#">
+                <img
+                  class="card-img-top position-relative img-fluid"
+                  src="https://d.newsweek.com/en/full/1608557/anthony-fauci.webp?w=397&h=265&f=0d4350d5a125a44f26d7c5825ad23df6"
+                  alt="picture"
+                />
+              </a>
+            </div>
+
+            <div class="card-body p-0 m-0">
+              <h5 class="card-title">
+                <a href="#" class="font-weight-bold text-body"
+                  >Texas Republicans Rebuke Governor for Mask Mandate as
+                  COVID-19 Cases Spike</a
+                >
+              </h5>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <div class="card my-1">
+              <a href="#">
+                <img
+                  class="card-img-top position-relative img-fluid"
+                  src="https://d.newsweek.com/en/full/1608557/anthony-fauci.webp?w=397&h=265&f=0d4350d5a125a44f26d7c5825ad23df6"
+                  alt="picture"
+                />
+              </a>
+            </div>
+
+            <div class="card-body p-0 m-0">
+              <h5 class="card-title">
+                <a href="#" class="font-weight-bold text-body"
+                  >Texas Republicans Rebuke Governor for Mask Mandate as
+                  COVID-19 Cases Spike</a
+                >
+              </h5>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 d-flex flex-column">
+            <div class="border-bottom pb-2">
+              <img
+                class="pt-2 mr-3 float-left img-fluid"
+                src="https://d.newsweek.com/en/full/1598987/george-washington.webp?w=95&h=95&f=6250da9e7accda4c68480b861fe2caea"
+                alt="picture"
+              />
+              <div class="px-0 pt-2">
+                <h5 class="card-title">
+                  <a href="#" class="font-weight-bold small text-body"
+                    >Will the Protesters Turn on Washington and Jefferson?</a
+                  >
+                </h5>
+              </div>
+            </div>
+            <div class="border-bottom pb-2">
+              <img
+                class="pt-2 mr-3 float-left img-fluid"
+                src="https://d.newsweek.com/en/full/1598987/george-washington.webp?w=95&h=95&f=6250da9e7accda4c68480b861fe2caea"
+                alt="picture"
+              />
+              <div class="px-0 pt-2">
+                <h5 class="card-title">
+                  <a href="#" class="font-weight-bold small text-body"
+                    >Will the Protesters Turn on Washington and Jefferson?</a
+                  >
+                </h5>
+              </div>
+            </div>
+            <div class="border-bottom pb-2">
+              <img
+                class="pt-2 mr-3 float-left img-fluid"
+                src="https://d.newsweek.com/en/full/1598987/george-washington.webp?w=95&h=95&f=6250da9e7accda4c68480b861fe2caea"
+                alt="picture"
+              />
+              <div class="px-0 pt-2">
+                <h5 class="card-title">
+                  <a href="#" class="font-weight-bold small text-body"
+                    >Will the Protesters Turn on Washington and Jefferson?</a
+                  >
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- world -->
+      <div class="container-fluid d-flex flex-column">
+        <div class="float-left mt-4">
+          <h5 class="font-weight-bold text-red">
+            World
+          </h5>
+        </div>
+        <div class="row border-bottom">
+          <div class="col-lg-4 col-md-4">
+            <div class="card my-1">
+              <a href="#">
+                <img
+                  class="card-img-top position-relative img-fluid"
+                  src="https://d.newsweek.com/en/full/1608468/kelly-craft-united-states-ambassador-united-nations.webp?w=397&h=265&f=20f4fd1867faded982fb7b661d3e137b"
+                  alt="picture"
+                />
+              </a>
+            </div>
+
+            <div class="card-body p-0 m-0">
+              <h5 class="card-title">
+                <a href="#" class="font-weight-bold text-body"
+                  >Russia, China Blocking Syria Aid Is 'Stain on Humanity' Says
+                  UN Ambassador</a
+                >
+              </h5>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <div class="card my-1">
+              <a href="#">
+                <img
+                  class="card-img-top position-relative img-fluid"
+                  src="https://d.newsweek.com/en/full/1604708/down-jackson.webp?w=480&h=320&l=63&t=51&q=90&f=6aa994b38cbdb4a0635bc48065702d5a"
+                  alt="picture"
+                />
+              </a>
+            </div>
+
+            <div class="card-body p-0 m-0">
+              <h5 class="card-title">
+                <a href="#" class="font-weight-bold text-body"
+                  >Texas Republicans Rebuke Governor for Mask Mandate as
+                  COVID-19 Cases Spike</a
+                >
+              </h5>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 d-flex flex-column">
+            <div class="border-bottom pb-2">
+              <img
+                class="pt-2 mr-3 float-left img-fluid"
+                src="https://d.newsweek.com/en/full/1598987/george-washington.webp?w=95&h=95&f=6250da9e7accda4c68480b861fe2caea"
+                alt="picture"
+              />
+              <div class="px-0 pt-2">
+                <h5 class="card-title">
+                  <a href="#" class="font-weight-bold small text-body"
+                    >Will the Protesters Turn on Washington and Jefferson?</a
+                  >
+                </h5>
+              </div>
+            </div>
+            <div class="border-bottom pb-2">
+              <img
+                class="pt-2 mr-3 float-left img-fluid"
+                src="https://d.newsweek.com/en/full/1598987/george-washington.webp?w=95&h=95&f=6250da9e7accda4c68480b861fe2caea"
+                alt="picture"
+              />
+              <div class="px-0 pt-2">
+                <h5 class="card-title">
+                  <a href="#" class="font-weight-bold small text-body"
+                    >Will the Protesters Turn on Washington and Jefferson?</a
+                  >
+                </h5>
+              </div>
+            </div>
+            <div class="border-bottom pb-2">
+              <img
+                class="pt-2 mr-3 float-left img-fluid"
+                src="https://d.newsweek.com/en/full/1598987/george-washington.webp?w=95&h=95&f=6250da9e7accda4c68480b861fe2caea"
+                alt="picture"
+              />
+              <div class="px-0 pt-2">
+                <h5 class="card-title">
+                  <a href="#" class="font-weight-bold small text-body"
+                    >Will the Protesters Turn on Washington and Jefferson?</a
+                  >
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- business -->
+      <div class="container-fluid d-flex flex-column">
+        <div class="float-left mt-4">
+          <h5 class="font-weight-bold text-red">
+            Business
+          </h5>
+        </div>
+        <div class="row border-bottom">
+          <div class="col-lg-4 col-md-4">
+            <div class="card my-1">
+              <a href="#">
+                <img
+                  class="card-img-top position-relative img-fluid"
+                  src="https://d.newsweek.com/en/full/1608163/deserted-nyc.webp?w=397&h=265&f=03b325fe5acc3f25dc3c6490e149bf32"
+                  alt="picture"
+                />
+              </a>
+            </div>
+
+            <div class="card-body p-0 m-0">
+              <h5 class="card-title">
+                <a href="#" class="font-weight-bold text-body"
+                  >Jobless Claims Remain Over Twice as High as Worst Week of
+                  Great Recession</a
+                >
+              </h5>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <div class="card my-1">
+              <a href="#">
+                <img
+                  class="card-img-top position-relative img-fluid"
+                  src="https://d.newsweek.com/en/full/1604708/down-jackson.webp?w=480&h=320&l=63&t=51&q=90&f=6aa994b38cbdb4a0635bc48065702d5a"
+                  alt="picture"
+                />
+              </a>
+            </div>
+
+            <div class="card-body p-0 m-0">
+              <h5 class="card-title">
+                <a href="#" class="font-weight-bold text-body"
+                  >Texas Republicans Rebuke Governor for Mask Mandate as
+                  COVID-19 Cases Spike</a
+                >
+              </h5>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 d-flex flex-column">
+            <div class="border-bottom pb-2">
+              <img
+                class="pt-2 mr-3 float-left img-fluid"
+                src="https://d.newsweek.com/en/full/1598987/george-washington.webp?w=95&h=95&f=6250da9e7accda4c68480b861fe2caea"
+                alt="picture"
+              />
+              <div class="px-0 pt-2">
+                <h5 class="card-title">
+                  <a href="#" class="font-weight-bold small text-body"
+                    >Will the Protesters Turn on Washington and Jefferson?</a
+                  >
+                </h5>
+              </div>
+            </div>
+            <div class="border-bottom pb-2">
+              <img
+                class="pt-2 mr-3 float-left img-fluid"
+                src="https://d.newsweek.com/en/full/1598987/george-washington.webp?w=95&h=95&f=6250da9e7accda4c68480b861fe2caea"
+                alt="picture"
+              />
+              <div class="px-0 pt-2">
+                <h5 class="card-title">
+                  <a href="#" class="font-weight-bold small text-body"
+                    >Will the Protesters Turn on Washington and Jefferson?</a
+                  >
+                </h5>
+              </div>
+            </div>
+            <div class="border-bottom pb-2">
+              <img
+                class="pt-2 mr-3 float-left img-fluid"
+                src="https://d.newsweek.com/en/full/1598987/george-washington.webp?w=95&h=95&f=6250da9e7accda4c68480b861fe2caea"
+                alt="picture"
+              />
+              <div class="px-0 pt-2">
+                <h5 class="card-title">
+                  <a href="#" class="font-weight-bold small text-body"
+                    >Will the Protesters Turn on Washington and Jefferson?</a
+                  >
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- tech & science -->
+      <div class="container-fluid d-flex flex-column">
+        <div class="float-left mt-4">
+          <h5 class="font-weight-bold text-red">
+            Tech & Science
+          </h5>
+        </div>
+        <div class="row border-bottom">
+          <div class="col-lg-4 col-md-4">
+            <div class="card my-1">
+              <a href="#">
+                <img
+                  class="card-img-top position-relative img-fluid"
+                  src="https://d.newsweek.com/en/full/1608548/elon-musk.webp?w=397&h=265&f=e17bb27d1c4f054a7c5dbf32cdbbf20c"
+                  alt="picture"
+                />
+              </a>
+            </div>
+
+            <div class="card-body p-0 m-0">
+              <h5 class="card-title">
+                <a href="#" class="font-weight-bold text-body"
+                  >Elon Musk Says Helping 'Dire Brain Injuries' is Neuralink's
+                  First Priority</a
+                >
+              </h5>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <div class="card my-1">
+              <a href="#">
+                <img
+                  class="card-img-top position-relative img-fluid"
+                  src="https://d.newsweek.com/en/full/1604708/down-jackson.webp?w=480&h=320&l=63&t=51&q=90&f=6aa994b38cbdb4a0635bc48065702d5a"
+                  alt="picture"
+                />
+              </a>
+            </div>
+
+            <div class="card-body p-0 m-0">
+              <h5 class="card-title">
+                <a href="#" class="font-weight-bold text-body"
+                  >Texas Republicans Rebuke Governor for Mask Mandate as
+                  COVID-19 Cases Spike</a
+                >
+              </h5>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 d-flex flex-column">
+            <div class="border-bottom pb-2">
+              <img
+                class="pt-2 mr-3 float-left img-fluid"
+                src="https://d.newsweek.com/en/full/1598987/george-washington.webp?w=95&h=95&f=6250da9e7accda4c68480b861fe2caea"
+                alt="picture"
+              />
+              <div class="px-0 pt-2">
+                <h5 class="card-title">
+                  <a href="#" class="font-weight-bold small text-body"
+                    >Will the Protesters Turn on Washington and Jefferson?</a
+                  >
+                </h5>
+              </div>
+            </div>
+            <div class="border-bottom pb-2">
+              <img
+                class="pt-2 mr-3 float-left img-fluid"
+                src="https://d.newsweek.com/en/full/1598987/george-washington.webp?w=95&h=95&f=6250da9e7accda4c68480b861fe2caea"
+                alt="picture"
+              />
+              <div class="px-0 pt-2">
+                <h5 class="card-title">
+                  <a href="#" class="font-weight-bold small text-body"
+                    >Will the Protesters Turn on Washington and Jefferson?</a
+                  >
+                </h5>
+              </div>
+            </div>
+            <div class="border-bottom pb-2">
+              <img
+                class="pt-2 mr-3 float-left img-fluid"
+                src="https://d.newsweek.com/en/full/1598987/george-washington.webp?w=95&h=95&f=6250da9e7accda4c68480b861fe2caea"
+                alt="picture"
+              />
+              <div class="px-0 pt-2">
+                <h5 class="card-title">
+                  <a href="#" class="font-weight-bold small text-body"
+                    >Will the Protesters Turn on Washington and Jefferson?</a
+                  >
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- culture -->
+      <div class="container-fluid d-flex flex-column">
+        <div class="float-left mt-4">
+          <h5 class="font-weight-bold text-red">
+            Culture
+          </h5>
+        </div>
+        <div class="row border-bottom">
+          <div class="col-lg-4 col-md-4">
+            <div class="card my-1">
+              <a href="#">
+                <img
+                  class="card-img-top position-relative img-fluid"
+                  src="https://d.newsweek.com/en/full/1608540/goya.webp?w=397&h=265&f=b832b3fe3ee725d96252b746fd3e0ec4"
+                  alt="picture"
+                />
+              </a>
+            </div>
+
+            <div class="card-body p-0 m-0">
+              <h5 class="card-title">
+                <a href="#" class="font-weight-bold text-body"
+                  >Chrissy Teigen, John Leguizamo and More Call for Goya
+                  Boycotts</a
+                >
+              </h5>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <div class="card my-1">
+              <a href="#">
+                <img
+                  class="card-img-top position-relative img-fluid"
+                  src="https://d.newsweek.com/en/full/1604708/down-jackson.webp?w=480&h=320&l=63&t=51&q=90&f=6aa994b38cbdb4a0635bc48065702d5a"
+                  alt="picture"
+                />
+              </a>
+            </div>
+
+            <div class="card-body p-0 m-0">
+              <h5 class="card-title">
+                <a href="#" class="font-weight-bold text-body"
+                  >Texas Republicans Rebuke Governor for Mask Mandate as
+                  COVID-19 Cases Spike</a
+                >
+              </h5>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 d-flex flex-column">
+            <div class="border-bottom pb-2">
+              <img
+                class="pt-2 mr-3 float-left img-fluid"
+                src="https://d.newsweek.com/en/full/1598987/george-washington.webp?w=95&h=95&f=6250da9e7accda4c68480b861fe2caea"
+                alt="picture"
+              />
+              <div class="px-0 pt-2">
+                <h5 class="card-title">
+                  <a href="#" class="font-weight-bold small text-body"
+                    >Will the Protesters Turn on Washington and Jefferson?</a
+                  >
+                </h5>
+              </div>
+            </div>
+            <div class="border-bottom pb-2">
+              <img
+                class="pt-2 mr-3 float-left img-fluid"
+                src="https://d.newsweek.com/en/full/1598987/george-washington.webp?w=95&h=95&f=6250da9e7accda4c68480b861fe2caea"
+                alt="picture"
+              />
+              <div class="px-0 pt-2">
+                <h5 class="card-title">
+                  <a href="#" class="font-weight-bold small text-body"
+                    >Will the Protesters Turn on Washington and Jefferson?</a
+                  >
+                </h5>
+              </div>
+            </div>
+            <div class="border-bottom pb-2">
+              <img
+                class="pt-2 mr-3 float-left img-fluid"
+                src="https://d.newsweek.com/en/full/1598987/george-washington.webp?w=95&h=95&f=6250da9e7accda4c68480b861fe2caea"
+                alt="picture"
+              />
+              <div class="px-0 pt-2">
+                <h5 class="card-title">
+                  <a href="#" class="font-weight-bold small text-body"
+                    >Will the Protesters Turn on Washington and Jefferson?</a
+                  >
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- sports -->
+      <div class="container-fluid d-flex flex-column">
+        <div class="float-left mt-4">
+          <h5 class="font-weight-bold text-red">
+            Sports
+          </h5>
+        </div>
+        <div class="row border-bottom">
+          <div class="col-lg-4 col-md-4">
+            <div class="card my-1">
+              <a href="#">
+                <img
+                  class="card-img-top position-relative img-fluid"
+                  src="https://d.newsweek.com/en/full/1608485/mike-perry.webp?w=397&h=265&l=61&t=40&f=f2bb3b5411823199478f6bab3be5d24e"
+                  alt="picture"
+                />
+              </a>
+            </div>
+
+            <div class="card-body p-0 m-0">
+              <h5 class="card-title">
+                <a href="#" class="font-weight-bold text-body"
+                  >No More Bouts for UFC Fighter Mike Perry After Hitting Senior
+                  at Bar Brawl</a
+                >
+              </h5>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <div class="card my-1">
+              <a href="#">
+                <img
+                  class="card-img-top position-relative img-fluid"
+                  src="https://d.newsweek.com/en/full/1604708/down-jackson.webp?w=480&h=320&l=63&t=51&q=90&f=6aa994b38cbdb4a0635bc48065702d5a"
+                  alt="picture"
+                />
+              </a>
+            </div>
+
+            <div class="card-body p-0 m-0">
+              <h5 class="card-title">
+                <a href="#" class="font-weight-bold text-body"
+                  >Texas Republicans Rebuke Governor for Mask Mandate as
+                  COVID-19 Cases Spike</a
+                >
+              </h5>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 d-flex flex-column">
+            <div class="border-bottom pb-2">
+              <img
+                class="pt-2 mr-3 float-left img-fluid"
+                src="https://d.newsweek.com/en/full/1598987/george-washington.webp?w=95&h=95&f=6250da9e7accda4c68480b861fe2caea"
+                alt="picture"
+              />
+              <div class="px-0 pt-2">
+                <h5 class="card-title">
+                  <a href="#" class="font-weight-bold small text-body"
+                    >Will the Protesters Turn on Washington and Jefferson?</a
+                  >
+                </h5>
+              </div>
+            </div>
+            <div class="border-bottom pb-2">
+              <img
+                class="pt-2 mr-3 float-left img-fluid"
+                src="https://d.newsweek.com/en/full/1598987/george-washington.webp?w=95&h=95&f=6250da9e7accda4c68480b861fe2caea"
+                alt="picture"
+              />
+              <div class="px-0 pt-2">
+                <h5 class="card-title">
+                  <a href="#" class="font-weight-bold small text-body"
+                    >Will the Protesters Turn on Washington and Jefferson?</a
+                  >
+                </h5>
+              </div>
+            </div>
+            <div class="border-bottom pb-2">
+              <img
+                class="pt-2 mr-3 float-left img-fluid"
+                src="https://d.newsweek.com/en/full/1598987/george-washington.webp?w=95&h=95&f=6250da9e7accda4c68480b861fe2caea"
+                alt="picture"
+              />
+              <div class="px-0 pt-2">
+                <h5 class="card-title">
+                  <a href="#" class="font-weight-bold small text-body"
+                    >Will the Protesters Turn on Washington and Jefferson?</a
+                  >
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- subscribe and newsletter -->
+      <div class="container-fluid row table">
+        <div class="col-lg-8 d-flex flex-column">
+          <div class="float-left mt-4 ml-0">
+            <h5 class="font-weight-bold text-red">
+              Subscribe
+            </h5>
+          </div>
+
+          <div class="row purple-background align-items-center pt-5 pb-2">
+            <div
+              class="subscribe-background col-lg-4 col-md-5 position-relative d-flex align-items-center justify-content-center"
+            >
+              <img
+                class="position-absolute"
+                src="https://d.newsweek.com/en/full/1603489/cover-july-03-2020.jpg?w=170&q=95&f=8446a36f196795281af9db53376bb9c9"
+                alt=""
+              />
+              <img
+                class="position-absolute ml-5 mt-3"
+                src="https://d.newsweek.com/en/full/1605463/us-cover-july-10-17.jpg?w=170&q=95&f=d2052453d20d983d860a15886165fa2a"
+                alt=""
+              />
+            </div>
+            <div
+              class="col-lg-8 col-md-7 pl-5 d-sm-flex flex-sm-column justify-content-sm-center"
+            >
+              <h2>
+                In-depth Stories You Don't See Elsewhere About Topics You Want
+                to Read!
+              </h2>
+              <p>
+                All Access + Weekly Delivery. Choose A Membership That's Perfect
+                for You!
+              </p>
+
+              <div class="d-flex flex-column justify-content-center">
+                <button
+                  class="my-2 mb-5 btn btn-lg red-background text-light"
+                  type="button"
+                >
+                  SUBSCRIBE >
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 d-flex flex-column">
+          <div class="float-left mt-4">
+            <h5 class="font-weight-bold text-red">
+              Newsletter
+            </h5>
+          </div>
+          <div class="row border mx-0 px-0">
+            <div class="col-lg-6 col-md-3 mx-0 px-0 d-none d-md-block">
+              <img
+                class="h-100"
+                src="assets/img/starting5-homepage.png"
+                alt=""
+              />
+            </div>
+            <div
+              class="col-lg-6 col-md-9 mx-0 px-2 py-5 pr-3 d-flex flex-column bg-white justify-content-center"
+            >
+              <h5 class="font-weight-bold d-flex justify-content-center">
+                The Starting 5
+              </h5>
+              <p class="d-flex justify-content-center">
+                See why nearly a quarter of a million subscribers begin their
+                day with the Starting 5.
+              </p>
+              <div class="form-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Email address"
+                />
+              </div>
+              <button
+                class="my-2 btn btn-lg red-background text-light"
+                type="button"
+              >
+                FREE SIGN UP >
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="border-top py-4 px-2">
+      <div class="d-md-flex justify-content-between">
+        <div class="d-md-flex align-items-end mb-1">
+          <a href="#"
+            ><img src="assets/img/logo_footer.png" alt="logo footer"
+          /></a>
+          <span class="d-flex align-items-end font-weight-light"
+            >© 2020 NEWSWEEK
+          </span>
+        </div>
+        <div class="social d-flex align-items-end">
+          <a href="#" class="mr-2 text-muted"
+            ><i class="fa fa-2x fa-facebook-square"></i
+          ></a>
+          <a href="#" class="mr-2 text-muted"
+            ><i class="fa fa-2x fa-twitter"></i
+          ></a>
+          <a href="#" class="mr-2 text-muted"
+            ><i class="fa fa-2x fa-instagram"></i
+          ></a>
+          <a href="#" class="mr-2 text-muted"
+            ><i class="fa fa-2x fa-tumblr"></i
+          ></a>
+          <a href="#" class="mr-2 text-muted"
+            ><i class="fa fa-2x fa-linkedin"></i
+          ></a>
+        </div>
+      </div>
+      <div class="border-top my-2">
+        <div class="d-flex">
+          <span class="font-weight-bold mt-1 pt-1 font-weight-bold mr-2"
+            >Editions:</span
+          >
+          <ul class="nav footers">
+            <li class="nav-item pr-2">
+              <a class="text-secondary font-weight-light nav-link" href="#"
+                >U.S edition</a
+              >
+            </li>
+            <li class="nav-item pr-2">
+              <a class="text-secondary font-weight-light nav-link" href="#"
+                >China</a
+              >
+            </li>
+            <li class="nav-item pr-2">
+              <a class="text-secondary font-weight-light nav-link" href="#"
+                >Pakistan</a
+              >
+            </li>
+            <li class="nav-item pr-2">
+              <a
+                class="text-secondary text-capitalize font-weight-light nav-link"
+                href="#"
+                >Polska</a
+              >
+            </li>
+            <li class="nav-item pr-2">
+              <a
+                class="text-secondary text-capitalize font-weight-light nav-link"
+                href="#"
+                >Romania</a
+              >
+            </li>
+          </ul>
+        </div>
+        <ul class="nav footer-links footers">
+          <li class="nav-item pr-2">
+            <a class="pl-0 text-secondary font-weight-light nav-link" href="#"
+              >About Us</a
+            >
+          </li>
+          <li class="nav-item pr-2">
+            <a class="pl-0 text-secondary font-weight-light nav-link" href="#"
+              >Corrections</a
+            >
+          </li>
+          <li class="nav-item pr-2">
+            <a class="pl-0 text-secondary font-weight-light nav-link" href="#"
+              >Contact Us</a
+            >
+          </li>
+          <li class="nav-item pr-2">
+            <a class="pl-0 text-secondary font-weight-light nav-link" href="#"
+              >Editorial Guideline</a
+            >
+          </li>
+          <li class="nav-item pr-2">
+            <a class="pl-0 text-secondary font-weight-light nav-link" href="#"
+              >Advertise</a
+            >
+          </li>
+          <li class="nav-item pr-2">
+            <a class="pl-0 text-secondary font-weight-light nav-link" href="#"
+              >Copyright</a
+            >
+          </li>
+          <li class="nav-item pr-2">
+            <a class="pl-0 text-secondary font-weight-light nav-link" href="#"
+              >Terms & Conditions</a
+            >
+          </li>
+          <li class="nav-item pr-2">
+            <a
+              class="pl-0 text-secondary font-weight-light text-capitalize nav-link"
+              href="#"
+              >Privacy Policy</a
+            >
+          </li>
+          <li class="nav-item pr-2">
+            <a
+              class="pl-0 text-secondary font-weight-light text-capitalize nav-link"
+              href="#"
+              >Cookie Policy</a
+            >
+          </li>
+          <li class="nav-item pr-2">
+            <a
+              class="pl-0 text-secondary font-weight-light text-capitalize nav-link"
+              href="#"
+              >Terms of Sale</a
+            >
+          </li>
+          <li class="nav-item pr-2">
+            <a
+              class="pl-0 text-secondary font-weight-light text-capitalize nav-link"
+              href="#"
+              >Archieve</a
+            >
+          </li>
+          <li class="nav-item pr-2">
+            <a
+              class="pl-0 text-secondary font-weight-light text-capitalize nav-link"
+              href="#"
+              >Announcements</a
+            >
+          </li>
+          <li class="nav-item pr-2">
+            <a
+              class="pl-0 text-secondary font-weight-light text-capitalize nav-link"
+              href="#"
+              >Consent preferences</a
+            >
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script src="assets/bootstrap-4.5.0-dist/js/bootstrap.min.js"></script>
   </body>
 </html>

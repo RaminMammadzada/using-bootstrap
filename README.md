@@ -1,20 +1,21 @@
 # Project Name
 
-> One paragraph statement about the project.
+> Microverse School > 7. HTML & CSS3 > Using Bootstrap
 
-![screenshot](./app_screenshot.png)
+This is the implementation of the newsweek.com frontend page by using Bootstrap.
 
-Additional description about the project and its features.
+![screenshot](assets/img/page_screenshot.png)
+
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML
+- Bootstrap 4.5,
+- CSS and Media Queries,
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://rawcdn.githack.com/RaminMammadzada/using-bootstrap/0a6c8d4cbfde89c133a820a17d47ceabba736b53/index.html)
 
 
 ## Getting Started
@@ -25,33 +26,20 @@ Additional description about the project and its features.
 
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
-
-### Setup
-
-### Install
-
 ### Usage
 
-### Run tests
-
-### Deployment
-
-
+- ``` git clone https://github.com/RaminMammadzada/using-bootstrap.git ```
+- Download Bootsrap-4.5.0-dist and font-awesome-4.7.0 libraries and locate it in assets/ folder.
+- Then open the index.html file in your favorite browser.
 
 ## Authors
 
-👤 **Author1**
+👤 **Ramin Mammadzada**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@raminmammadzada](https://github.com/raminmammadzada)
+- Twitter: [@raminmammadzada](https://twitter.com/raminmammadzada)
+- Linkedin: [raminmammadzada](https://linkedin.com/raminmammadzada) 
+- Email: [raminmammadzadaiu@gmail.com](mailto:raminmammadzadaiu@gmail.com?subject=[GitHub]%20Source%20Han%20Sans)
 
 ## 🤝 Contributing
 
@@ -63,11 +51,6 @@ Feel free to check the [issues page](issues/).
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 

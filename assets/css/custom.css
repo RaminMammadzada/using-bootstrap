@@ -1,5 +1,80 @@
 * {
-    margin: 0 auto;
-    padding: 0 auto;
-    box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.top-navbar li a {
+  padding: 0;
+}
+
+.top-navbar li {
+  display: block;
+  float: left;
+}
+
+.red-background {
+  background-color: #f72210;
+}
+
+.text-red {
+  color: #f72210;
+}
+
+.background-gray {
+  background-color: #c1d4d7;
+}
+
+.purple-background {
+  background-color: #f4f5f6;
+}
+
+.weather {
+  height: 24px;
+  width: 24px;
+}
+
+.large-logo {
+  width: 400px;
+  height: auto;
+}
+
+.small-logo {
+  width: 140px;
+  height: auto;
+}
+
+.scrollable {
+  margin-top: 30px;
+  overflow-y: scroll;
+  height: 100%;
+}
+
+.vs::before,
+.vs::after {
+  content: "";
+  display: block;
+  background-color: #d9d9d9;
+  height: 1px;
+  position: absolute;
+  top: 10px;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.vs::after {
+  top: 12px;
+}
+
+@media (max-width: 412px) {
+  .container-fluid {
+    min-width: 420px;
+  }
+}
+
+.subscribe-background {
+  height: 350px;
 }
